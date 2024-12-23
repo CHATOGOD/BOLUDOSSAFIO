@@ -1,0 +1,1368 @@
+[23Dec2024 18:42:20.770] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[23Dec2024 18:42:20.773] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[23Dec2024 18:42:22.393] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[23Dec2024 18:42:22.398] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirector CoreMod initialized successfully!
+[23Dec2024 18:42:22.404] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[23Dec2024 18:42:22.425] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[23Dec2024 18:42:22.442] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[23Dec2024 18:42:22.479] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/BOLUDOSSAFIO/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar%23299%23303!/ Service=ModLauncher Env=SERVER
+[23Dec2024 18:42:22.497] [main/INFO] [Mods Optimizer/]: [Mods Optimizer] ♻ Init ...
+[23Dec2024 18:42:22.498] [main/INFO] [Mods Optimizer/]: Game Directory: /workspaces/BOLUDOSSAFIO/servidor_minecraft
+[23Dec2024 18:42:22.499] [main/INFO] [Mods Optimizer/]: Mods Directory: /workspaces/BOLUDOSSAFIO/servidor_minecraft/mods
+[23Dec2024 18:42:22.499] [main/INFO] [Mods Optimizer/]: Game Environment: SERVER
+[23Dec2024 18:42:22.501] [main/INFO] [Mods Optimizer/]: Creating Mods Database Config File under /workspaces/BOLUDOSSAFIO/servidor_minecraft/config/mods_optimizer/config.toml
+[23Dec2024 18:42:22.518] [main/INFO] [Mods Optimizer/]: Loading Mods Database Config File from /workspaces/BOLUDOSSAFIO/servidor_minecraft/config/mods_optimizer/config.toml
+[23Dec2024 18:42:22.567] [main/INFO] [Mods Optimizer/]: ♻ init with game dir /workspaces/BOLUDOSSAFIO/servidor_minecraft and mods dir /workspaces/BOLUDOSSAFIO/servidor_minecraft/mods for target SERVER in 67 ms.
+[23Dec2024 18:42:22.568] [main/INFO] [Mods Optimizer/]: ♻ Parsing Mods data ...
+[23Dec2024 18:42:22.570] [main/INFO] [Mods Optimizer/]: [Mod Data] parsing ~200 mods in /workspaces/BOLUDOSSAFIO/servidor_minecraft/mods with file extension .jar ...
+[23Dec2024 18:42:22.591] [main/WARN] [Mods Optimizer/]: Was unable to parse timestamp 2024-09-19T09:53:08.535911937:
+[23Dec2024 18:42:22.603] [main/INFO] [Mods Optimizer/]: [Mod Data] Overwrite mod environment for starterkit from UNKNOWN to DEFAULT
+[23Dec2024 18:42:22.647] [main/INFO] [Mods Optimizer/]: [Mod Data] Overwrite mod environment for oculus from UNKNOWN to CLIENT
+[23Dec2024 18:42:22.655] [main/ERROR] [Mods Optimizer/]: TOML file META-INF/mods.toml not found in java.util.jar.JarFile@1473b8c0
+[23Dec2024 18:42:22.656] [main/WARN] [Mods Optimizer/]: ⚠ Found no META-INF/mods.toml file for /workspaces/BOLUDOSSAFIO/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar!
+[23Dec2024 18:42:22.656] [main/WARN] [Mods Optimizer/]: Was unable to parse timestamp 2024-09-27T11:02:52.188759466:
+[23Dec2024 18:42:22.657] [main/ERROR] [Mods Optimizer/]: Json file fabric.mod.json not found in java.util.jar.JarFile@1473b8c0
+[23Dec2024 18:42:22.657] [main/WARN] [Mods Optimizer/]: ⚠ Found no id tag inside the fabric.mod.json file /workspaces/BOLUDOSSAFIO/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar!
+[23Dec2024 18:42:22.658] [main/WARN] [Mods Optimizer/]: ⚠ Found no name tag inside the fabric.mod.json file /workspaces/BOLUDOSSAFIO/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar!
+[23Dec2024 18:42:22.658] [main/WARN] [Mods Optimizer/]: ⚠ Found no version tag inside the fabric.mod.json file /workspaces/BOLUDOSSAFIO/servidor_minecraft/mods/Connector-1.0.0-beta.46+1.20.1.jar!
+[23Dec2024 18:42:22.659] [main/WARN] [Mods Optimizer/]: Was unable to parse timestamp 2024-09-27T11:02:52.188759466:
+[23Dec2024 18:42:22.661] [main/INFO] [Mods Optimizer/]: [Mod Data] Overwrite mod environment for myserveriscompatible from DEFAULT to CLIENT
+[23Dec2024 18:42:22.666] [main/INFO] [Mods Optimizer/]: [Mod Data] Overwrite mod environment for attributefix from CLIENT to DEFAULT
+[23Dec2024 18:42:22.679] [main/WARN] [Mods Optimizer/]: [Mod Data] ⚠ Unable to read manifest from mod file /workspaces/BOLUDOSSAFIO/servidor_minecraft/mods/village-nullifier-1.0.0.jar, which is expected in some cases.
+[23Dec2024 18:42:22.686] [main/ERROR] [Mods Optimizer/]: TOML file META-INF/mods.toml not found in java.util.jar.JarFile@659925f4
+[23Dec2024 18:42:22.687] [main/WARN] [Mods Optimizer/]: ⚠ Found no META-INF/mods.toml file for /workspaces/BOLUDOSSAFIO/servidor_minecraft/mods/kotlinforforge-4.11.0-all.jar!
+[23Dec2024 18:42:22.689] [main/INFO] [Mods Optimizer/]: [Mod Data] Overwrite mod environment for catalogue from UNKNOWN to CLIENT
+[23Dec2024 18:42:22.691] [main/WARN] [Mods Optimizer/]: Was unable to parse timestamp 2024-09-13T21:35:06.506903009Z:
+[23Dec2024 18:42:22.710] [main/INFO] [Mods Optimizer/]: [Mod Data] Overwrite mod environment for entity_texture_features from UNKNOWN to CLIENT
+[23Dec2024 18:42:22.731] [main/INFO] [Mods Optimizer/]: [Mod Data] Overwrite mod environment for betterfpsdist from DEFAULT to CLIENT
+[23Dec2024 18:42:22.814] [main/WARN] [Mods Optimizer/]: Was unable to parse timestamp 2024-09-16T18:11:01.977303800Z:
+[23Dec2024 18:42:22.818] [main/INFO] [Mods Optimizer/]: [Mod Data] Overwrite mod environment for entityculling from UNKNOWN to CLIENT
+[23Dec2024 18:42:22.821] [main/WARN] [Mods Optimizer/]: [Mod Data] ⚠ Unable to read manifest from mod file /workspaces/BOLUDOSSAFIO/servidor_minecraft/mods/lithosphere 1.2 25.06.2024.jar, which is expected in some cases.
+[23Dec2024 18:42:22.829] [main/INFO] [Mods Optimizer/]: [Mod Data] Overwrite mod environment for smoothboot from DEFAULT to CLIENT
+[23Dec2024 18:42:22.834] [main/WARN] [Mods Optimizer/]: ⚠ Found no side tag inside the dependencies.searchables[0] section of the mods.toml file /workspaces/BOLUDOSSAFIO/servidor_minecraft/mods/Searchables-forge-1.20.1-1.0.3.jar!
+[23Dec2024 18:42:22.835] [main/INFO] [Mods Optimizer/]: [Mod Data] Overwrite mod environment for searchables from UNKNOWN to CLIENT
+[23Dec2024 18:42:22.847] [main/INFO] [Mods Optimizer/]: [Mod Data] Overwrite mod environment for ambientsounds from DEFAULT to CLIENT
+[23Dec2024 18:42:22.851] [main/INFO] [Mods Optimizer/]: [Mod Data] Overwrite mod environment for fancymenu from DEFAULT to CLIENT
+[23Dec2024 18:42:22.856] [main/INFO] [Mods Optimizer/]: [Mod Data] Overwrite mod environment for smoothchunk from DEFAULT to SERVER
+[23Dec2024 18:42:22.870] [main/INFO] [Mods Optimizer/]: [Mod Data] Overwrite mod environment for extrasounds from DEFAULT to CLIENT
+[23Dec2024 18:42:22.875] [main/INFO] [Mods Optimizer/]: [Mod Data] Overwrite mod environment for dynamiccrosshair from DEFAULT to CLIENT
+[23Dec2024 18:42:22.877] [main/INFO] [Mods Optimizer/]: [Mod Data] Found 1 library mods in 198 mods.
+[23Dec2024 18:42:22.878] [main/INFO] [Mods Optimizer/]: [Mod Data] Found 4 data pack mods in 198 mods.
+[23Dec2024 18:42:22.878] [main/INFO] [Mods Optimizer/]: [Mod Data] Found 28 client mods in 198 mods.
+[23Dec2024 18:42:22.878] [main/INFO] [Mods Optimizer/]: [Mod Data] Found 3 server mods in 198 mods.
+[23Dec2024 18:42:22.878] [main/INFO] [Mods Optimizer/]: [Mod Data] Found 1 service mods in 198 mods.
+[23Dec2024 18:42:22.879] [main/INFO] [Mods Optimizer/]: [Mod Data] Found 161 default mods in 198 mods.
+[23Dec2024 18:42:22.879] [main/INFO] [Mods Optimizer/]: -------------------------------------------------------------------------------------------------------------------
+[23Dec2024 18:42:22.879] [main/INFO] [Mods Optimizer/]: | ID                                 | VERSION                | TYPE     | ENVIRONMENT       | TIMESTAMP           |
+[23Dec2024 18:42:22.879] [main/INFO] [Mods Optimizer/]: -------------------------------------------------------------------------------------------------------------------
+[23Dec2024 18:42:22.880] [main/INFO] [Mods Optimizer/]: | kubejs                             | 2001.6.5-build.14      | FORGE    | DEFAULT           | 2024-06-21 18:29:01 |
+[23Dec2024 18:42:22.881] [main/INFO] [Mods Optimizer/]: | globalgamerules                    | 8.0.0-11               | FORGE    | DEFAULT           | 2023-06-14 22:16:43 |
+[23Dec2024 18:42:22.881] [main/INFO] [Mods Optimizer/]: | dynamiccrosshair                   | 7.4.4+1.20             | FORGE    | CLIENT            | 2024-12-23 18:19:17 |
+[23Dec2024 18:42:22.882] [main/INFO] [Mods Optimizer/]: | nerb                               | 0.4.1                  | FORGE    | DEFAULT           | 2024-12-23 18:30:30 |
+[23Dec2024 18:42:22.882] [main/INFO] [Mods Optimizer/]: | underground_bunkers                | 1.0.5                  | FORGE    | DEFAULT           | 2024-09-15 15:17:04 |
+[23Dec2024 18:42:22.883] [main/INFO] [Mods Optimizer/]: | sound_physics_remastered           | 1.20.1-1.4.5           | FORGE    | DEFAULT           | 2024-07-12 09:23:24 |
+[23Dec2024 18:42:22.883] [main/INFO] [Mods Optimizer/]: | modernfix                          | 5.19.4+mc1.20.1        | FORGE    | DEFAULT           | 2024-12-23 18:28:47 |
+[23Dec2024 18:42:22.884] [main/INFO] [Mods Optimizer/]: | horror_element_mod                 | 1.6.0                  | FORGE    | UNKNOWN           | 2024-12-23 18:23:40 |
+[23Dec2024 18:42:22.885] [main/INFO] [Mods Optimizer/]: | createdieselgenerators             | 1.20.1-1.2i            | FORGE    | DEFAULT           | 2024-06-05 18:06:03 |
+[23Dec2024 18:42:22.885] [main/INFO] [Mods Optimizer/]: | cloth_config                       | 11.1.136               | FORGE    | DEFAULT           | 2024-12-23 17:56:42 |
+[23Dec2024 18:42:22.886] [main/INFO] [Mods Optimizer/]: | leavesbegone                       | 8.0.0                  | FORGE    | DEFAULT           | 2023-06-28 07:09:21 |
+[23Dec2024 18:42:22.886] [main/INFO] [Mods Optimizer/]: | embeddium                          | 0.3.31+mc1.20.1        | FORGE    | UNKNOWN           | 2024-12-23 18:18:50 |
+[23Dec2024 18:42:22.887] [main/INFO] [Mods Optimizer/]: | refinedstorage                     | 1.12.4                 | FORGE    | UNKNOWN           | 2024-12-23 18:34:45 |
+[23Dec2024 18:42:22.887] [main/INFO] [Mods Optimizer/]: | lmft                               | 1.0.4+1.20.1           | FORGE    | DEFAULT           | 2024-12-23 18:25:47 |
+[23Dec2024 18:42:22.888] [main/INFO] [Mods Optimizer/]: | advancementplaques                 | 1.6.7                  | FORGE    | DEFAULT           | 2024-09-27 09:43:12 |
+[23Dec2024 18:42:22.889] [main/INFO] [Mods Optimizer/]: | ftbxmodcompat                      | 2.1.1                  | FORGE    | DEFAULT           | 2024-12-23 18:23:28 |
+[23Dec2024 18:42:22.889] [main/INFO] [Mods Optimizer/]: | biomesoplenty                      | 18.0.0-592             | FORGE    | DEFAULT           | 2023-06-30 06:53:53 |
+[23Dec2024 18:42:22.890] [main/INFO] [Mods Optimizer/]: | loot_journal                       | 3.1.1                  | FORGE    | CLIENT            | 2024-05-06 15:36:40 |
+[23Dec2024 18:42:22.890] [main/INFO] [Mods Optimizer/]: | lrarmor                            | 1.4.3                  | FORGE    | UNKNOWN           | 2024-09-02 23:48:24 |
+[23Dec2024 18:42:22.891] [main/INFO] [Mods Optimizer/]: | blocksyouneed_luna                 | 1.6.4                  | FORGE    | UNKNOWN           | 2024-12-23 17:56:29 |
+[23Dec2024 18:42:22.891] [main/INFO] [Mods Optimizer/]: | extinction                         | 1.1.0                  | FORGE    | UNKNOWN           | 2024-12-23 18:20:57 |
+[23Dec2024 18:42:22.891] [main/INFO] [Mods Optimizer/]: | spark                              | 1.10.53                | FORGE    | DEFAULT           | 2024-12-23 18:37:25 |
+[23Dec2024 18:42:22.892] [main/INFO] [Mods Optimizer/]: | curios                             | 5.10.0+1.20.1          | FORGE    | DEFAULT           | 2024-08-31 05:02:18 |
+[23Dec2024 18:42:22.892] [main/INFO] [Mods Optimizer/]: | oculus                             | 1.7.0                  | FORGE    | CLIENT            | 2024-12-23 18:30:55 |
+[23Dec2024 18:42:22.893] [main/INFO] [Mods Optimizer/]: | create_factory                     | 0.0.0                  | FORGE    | DEFAULT           | 2024-06-21 20:25:58 |
+[23Dec2024 18:42:22.893] [main/INFO] [Mods Optimizer/]: | searchables                        | 1.0.3                  | FORGE    | CLIENT            | 2024-04-23 06:56:27 |
+[23Dec2024 18:42:22.893] [main/INFO] [Mods Optimizer/]: | noisium                            | 2.3.0+mc1.20-1.20.1    | FORGE    | DEFAULT           | 2024-12-23 18:30:31 |
+[23Dec2024 18:42:22.894] [main/INFO] [Mods Optimizer/]: | thirst                             | 1.20.1-1.3.9           | FORGE    | DEFAULT           | 2024-07-27 01:23:51 |
+[23Dec2024 18:42:22.894] [main/INFO] [Mods Optimizer/]: | pointblank                         | 1.7.6                  | FORGE    | DEFAULT           | 2024-09-25 16:31:40 |
+[23Dec2024 18:42:22.894] [main/INFO] [Mods Optimizer/]: | dynamic_fps                        | 3.7.3                  | FORGE    | CLIENT            | 2024-12-23 18:19:18 |
+[23Dec2024 18:42:22.895] [main/INFO] [Mods Optimizer/]: | jadeaddons                         | 5.3.1+forge            | FORGE    | UNKNOWN           | 2024-09-05 03:28:20 |
+[23Dec2024 18:42:22.895] [main/INFO] [Mods Optimizer/]: | createtaczauto                     | 1.1.2                  | FORGE    | UNKNOWN           | 2024-12-23 18:16:22 |
+[23Dec2024 18:42:22.895] [main/INFO] [Mods Optimizer/]: | krypton                            | 0.2.3                  | FORGE    | DEFAULT           | 2023-06-24 02:49:29 |
+[23Dec2024 18:42:22.896] [main/INFO] [Mods Optimizer/]: | cleanview                          | 1.20.1-v1              | FORGE    | DEFAULT           | 2023-06-17 11:31:48 |
+[23Dec2024 18:42:22.896] [main/INFO] [Mods Optimizer/]: | dynamictrees                       | 1.20.1-1.3.3           | FORGE    | DEFAULT           | 2024-12-23 18:19:13 |
+[23Dec2024 18:42:22.896] [main/INFO] [Mods Optimizer/]: | sliceanddice                       | 3.3.0                  | FORGE    | DEFAULT           | 2024-12-23 18:34:25 |
+[23Dec2024 18:42:22.897] [main/INFO] [Mods Optimizer/]: | waterdripsound                     | 0.3.2                  | FORGE    | DEFAULT           | 2023-03-15 19:31:04 |
+[23Dec2024 18:42:22.897] [main/INFO] [Mods Optimizer/]: | radium                             | 0.12.4+git.26c9d8e     | FORGE    | UNKNOWN           | 2024-12-23 18:34:23 |
+[23Dec2024 18:42:22.898] [main/INFO] [Mods Optimizer/]: | dtbop                              | 1.20.1-3.2.5           | FORGE    | DEFAULT           | 2024-12-23 18:18:34 |
+[23Dec2024 18:42:22.898] [main/INFO] [Mods Optimizer/]: | ftblibrary                         | 2001.2.4               | FORGE    | DEFAULT           | 2024-07-26 11:00:29 |
+[23Dec2024 18:42:22.898] [main/INFO] [Mods Optimizer/]: | zombiekit                          | 2.0.1                  | FORGE    | DEFAULT           | 2024-10-03 21:22:19 |
+[23Dec2024 18:42:22.899] [main/INFO] [Mods Optimizer/]: | mutantmonsters                     | 8.0.7                  | FORGE    | DEFAULT           | 2024-02-14 13:20:07 |
+[23Dec2024 18:42:22.899] [main/INFO] [Mods Optimizer/]: | marbledsendless                    | 1.0.0                  | FORGE    | DEFAULT           | 2024-07-17 01:48:13 |
+[23Dec2024 18:42:22.899] [main/INFO] [Mods Optimizer/]: | jei                                | 15.20.0-104            | FORGE    | DEFAULT           | 2024-12-23 18:23:23 |
+[23Dec2024 18:42:22.900] [main/INFO] [Mods Optimizer/]: | welcomemessage                     | 2.6.0                  | MIXED    | UNKNOWN           | 2024-07-27 19:14:34 |
+[23Dec2024 18:42:22.900] [main/INFO] [Mods Optimizer/]: | attributefix                       | 21.0.4                 | FORGE    | DEFAULT           | 2023-11-29 11:27:15 |
+[23Dec2024 18:42:22.901] [main/INFO] [Mods Optimizer/]: | gundurability                      | 1.0.0                  | FORGE    | UNKNOWN           | 2024-10-11 12:24:20 |
+[23Dec2024 18:42:22.901] [main/INFO] [Mods Optimizer/]: | mekanism                           | 10.4.9                 | FORGE    | DEFAULT           | 2024-08-25 15:57:01 |
+[23Dec2024 18:42:22.901] [main/INFO] [Mods Optimizer/]: | createloveandwar                   | 0.0.0                  | FORGE    | DEFAULT           | 2024-04-10 20:36:42 |
+[23Dec2024 18:42:22.902] [main/INFO] [Mods Optimizer/]: | immersive_weathering               | 1.20.1-2.0.3           | FORGE    | DEFAULT           | 2024-12-23 18:23:15 |
+[23Dec2024 18:42:22.902] [main/INFO] [Mods Optimizer/]: | zombiesmore                        | 2.0.0                  | FORGE    | UNKNOWN           | 2024-12-23 17:52:17 |
+[23Dec2024 18:42:22.902] [main/INFO] [Mods Optimizer/]: | fallingleaves                      | 2.1.0                  | FORGE    | CLIENT            | 2023-08-11 11:17:56 |
+[23Dec2024 18:42:22.903] [main/INFO] [Mods Optimizer/]: | fastasyncworldsave                 | 1.20.1-2.0             | FORGE    | DEFAULT           | 2024-03-28 15:12:07 |
+[23Dec2024 18:42:22.903] [main/INFO] [Mods Optimizer/]: | sereneseasons                      | 9.0.0-46               | FORGE    | DEFAULT           | 2023-09-21 13:32:28 |
+[23Dec2024 18:42:22.903] [main/INFO] [Mods Optimizer/]: | glitchcore                         | 0.0.0                  | FORGE    | DEFAULT           | 2024-10-06 09:39:40 |
+[23Dec2024 18:42:22.904] [main/INFO] [Mods Optimizer/]: | design_decor                       | 0.0.0                  | FORGE    | DEFAULT           | 2024-08-04 19:06:39 |
+[23Dec2024 18:42:22.904] [main/INFO] [Mods Optimizer/]: | wegotrunnners                      | 1.0.0                  | FORGE    | UNKNOWN           | 2024-12-23 17:52:06 |
+[23Dec2024 18:42:22.905] [main/INFO] [Mods Optimizer/]: | catalogue                          | 1.8.0                  | FORGE    | CLIENT            | 2023-09-24 02:24:08 |
+[23Dec2024 18:42:22.905] [main/INFO] [Mods Optimizer/]: | questsadditions                    | 1.4.6                  | FORGE    | DEFAULT           | 2024-09-07 01:01:19 |
+[23Dec2024 18:42:22.906] [main/INFO] [Mods Optimizer/]: | memoryleakfix                      | 1.1.5                  | FORGE    | DEFAULT           | 2024-12-23 18:28:45 |
+[23Dec2024 18:42:22.906] [main/INFO] [Mods Optimizer/]: | ftbqoptimizer                      | 2.0.4-1.20.1           | FORGE    | DEFAULT           | 2024-12-23 18:23:27 |
+[23Dec2024 18:42:22.907] [main/INFO] [Mods Optimizer/]: | logbegone                          | 1.0.8                  | FORGE    | UNKNOWN           | 2023-06-12 19:18:50 |
+[23Dec2024 18:42:22.907] [main/INFO] [Mods Optimizer/]: | drippyloadingscreen                | 3.0.9                  | FORGE    | CLIENT            | 2024-10-09 05:58:57 |
+[23Dec2024 18:42:22.908] [main/INFO] [Mods Optimizer/]: | marbledsnetherless                 | 1.0.2                  | FORGE    | DEFAULT           | 2024-09-16 20:39:24 |
+[23Dec2024 18:42:22.908] [main/INFO] [Mods Optimizer/]: | smoothchunk                        | 1.20.1-3.6             | FORGE    | SERVER            | 2024-02-26 15:47:29 |
+[23Dec2024 18:42:22.909] [main/INFO] [Mods Optimizer/]: | voicechat                          | 1.20.1-2.5.24          | FORGE    | DEFAULT           | 2024-10-08 18:09:08 |
+[23Dec2024 18:42:22.909] [main/INFO] [Mods Optimizer/]: | terrablender                       | 3.0.1-7                | FORGE    | DEFAULT           | 2024-05-28 09:37:54 |
+[23Dec2024 18:42:22.909] [main/INFO] [Mods Optimizer/]: | ftbquests                          | 2001.4.8               | FORGE    | UNKNOWN           | 2024-07-18 18:51:34 |
+[23Dec2024 18:42:22.910] [main/INFO] [Mods Optimizer/]: | mindfuldarkness                    | 8.0.3                  | FORGE    | DEFAULT           | 2024-02-04 21:29:06 |
+[23Dec2024 18:42:22.910] [main/INFO] [Mods Optimizer/]: | cleanswing                         | 0.0.0                  | FORGE    | DEFAULT           | 2024-02-07 09:42:06 |
+[23Dec2024 18:42:22.910] [main/INFO] [Mods Optimizer/]: | betterfpsdist                      | 1.20.1-6.0             | FORGE    | CLIENT            | 2024-09-14 21:25:41 |
+[23Dec2024 18:42:22.911] [main/INFO] [Mods Optimizer/]: | pipez                              | 1.20.1-1.2.16          | FORGE    | DEFAULT           | 2024-07-21 11:26:36 |
+[23Dec2024 18:42:22.911] [main/INFO] [Mods Optimizer/]: | entityjs                           | 0.3.3-1.20.1           | FORGE    | DEFAULT           | 2024-09-17 10:55:00 |
+[23Dec2024 18:42:22.911] [main/INFO] [Mods Optimizer/]: | securitycraft                      | 1.9.11                 | FORGE    | DEFAULT           | 2024-12-23 17:52:05 |
+[23Dec2024 18:42:22.912] [main/INFO] [Mods Optimizer/]: | tacz_npc                           | 2.1.0                  | FORGE    | UNKNOWN           | 2024-12-23 18:37:22 |
+[23Dec2024 18:42:22.912] [main/INFO] [Mods Optimizer/]: | ftbquestlocalizer                  | 2.0.0                  | FORGE    | DEFAULT           | 2024-08-09 22:35:44 |
+[23Dec2024 18:42:22.912] [main/INFO] [Mods Optimizer/]: | redirector                         | 5.0.0                  | FORGE    | DEFAULT           | 2024-03-31 06:18:08 |
+[23Dec2024 18:42:22.916] [main/INFO] [Mods Optimizer/]: | entityculling                      | 1.7.0                  | FORGE    | CLIENT            | 2024-12-23 18:18:44 |
+[23Dec2024 18:42:22.916] [main/INFO] [Mods Optimizer/]: | damageindicator                    | 2.0.0-1.20.1           | FORGE    | DEFAULT           | 2024-12-23 18:19:13 |
+[23Dec2024 18:42:22.917] [main/INFO] [Mods Optimizer/]: | ambientenvironment                 | 11.0.0-1               | FORGE    | UNKNOWN           | 2023-06-20 08:44:15 |
+[23Dec2024 18:42:22.918] [main/INFO] [Mods Optimizer/]: | immediatelyfast                    | 1.2.21+1.20.4          | FORGE    | CLIENT            | 2024-12-23 18:23:25 |
+[23Dec2024 18:42:22.918] [main/INFO] [Mods Optimizer/]: | extrasounds                        | 1.3.0                  | FORGE    | CLIENT            | 2024-12-23 18:19:49 |
+[23Dec2024 18:42:22.919] [main/INFO] [Mods Optimizer/]: | fastfurnace                        | 8.0.2                  | FORGE    | UNKNOWN           | 2024-03-13 22:38:07 |
+[23Dec2024 18:42:22.919] [main/INFO] [Mods Optimizer/]: | appleskin                          | 2.5.1+mc1.20.1         | FORGE    | CLIENT            | 2023-09-26 21:01:11 |
+[23Dec2024 18:42:22.920] [main/INFO] [Mods Optimizer/]: | modernui                           | 3.11.0-1               | FORGE    | DEFAULT           | 2024-09-15 16:34:02 |
+[23Dec2024 18:42:22.920] [main/INFO] [Mods Optimizer/]: | puzzleslib                         | 8.1.24                 | FORGE    | DEFAULT           | 2024-10-04 22:48:24 |
+[23Dec2024 18:42:22.920] [main/INFO] [Mods Optimizer/]: | consolefilter                      | 1.20.1-2.0.0           | FORGE    | CLIENT            | 2023-06-24 12:14:06 |
+[23Dec2024 18:42:22.921] [main/INFO] [Mods Optimizer/]: | extremesoundmuffler                | 3.48.0                 | FORGE    | DEFAULT           | 2024-07-03 17:24:10 |
+[23Dec2024 18:42:22.921] [main/INFO] [Mods Optimizer/]: | xkdeco                             | 0.8.2+forge            | FORGE    | DEFAULT           | 2024-08-08 18:50:23 |
+[23Dec2024 18:42:22.922] [main/INFO] [Mods Optimizer/]: | mr_village_nullifier               | 1.0.0                  | MIXED    | UNKNOWN           | 2024-12-23 18:37:11 |
+[23Dec2024 18:42:22.922] [main/INFO] [Mods Optimizer/]: | chunksending                       | 1.20.1-2.8             | FORGE    | DEFAULT           | 2023-11-23 21:08:36 |
+[23Dec2024 18:42:22.922] [main/INFO] [Mods Optimizer/]: | explosiveenhancement               | 1.0.1-tacz             | FORGE    | DEFAULT           | 2024-09-22 19:21:47 |
+[23Dec2024 18:42:22.923] [main/INFO] [Mods Optimizer/]: | cristellib                         | 1.1.5                  | FORGE    | DEFAULT           | 2024-12-23 18:16:26 |
+[23Dec2024 18:42:22.923] [main/INFO] [Mods Optimizer/]: | zombie_extreme                     | 0.2.6                  | FORGE    | UNKNOWN           | 2024-12-23 17:51:26 |
+[23Dec2024 18:42:22.924] [main/INFO] [Mods Optimizer/]: | flansmod                           | 4.0.0                  | FORGE    | DEFAULT           | 2024-12-23 18:19:58 |
+[23Dec2024 18:42:22.924] [main/INFO] [Mods Optimizer/]: | org.sinytra.connector              | 1.0.0-beta.46+1.20.1   | MIXED    | SERVICE           | 2024-12-23 17:56:42 |
+[23Dec2024 18:42:22.924] [main/INFO] [Mods Optimizer/]: | fibers                             | 1.3.0                  | FORGE    | DEFAULT           | 2024-09-09 15:22:24 |
+[23Dec2024 18:42:22.925] [main/INFO] [Mods Optimizer/]: | notenoughcrashes                   | 4.4.7+1.20.1           | FORGE    | DEFAULT           | 2024-12-23 18:30:30 |
+[23Dec2024 18:42:22.925] [main/INFO] [Mods Optimizer/]: | embeddiumplus                      | 1.2.13                 | FORGE    | CLIENT            | 2024-06-16 20:39:43 |
+[23Dec2024 18:42:22.926] [main/INFO] [Mods Optimizer/]: | globalpacks                        | 1.16.2                 | FORGE    | DATA_PACK         | 2023-06-08 14:32:18 |
+[23Dec2024 18:42:22.926] [main/INFO] [Mods Optimizer/]: | geckolib                           | 4.4.9                  | FORGE    | DEFAULT           | 2024-08-30 05:02:44 |
+[23Dec2024 18:42:22.926] [main/INFO] [Mods Optimizer/]: | tipsmod                            | 12.1.8                 | FORGE    | CLIENT            | 2024-07-20 03:10:57 |
+[23Dec2024 18:42:22.927] [main/INFO] [Mods Optimizer/]: | sophisticatedcore                  | 6.34.718               | FORGE    | DEFAULT           | 2024-10-11 00:21:53 |
+[23Dec2024 18:42:22.927] [main/INFO] [Mods Optimizer/]: | gpumemleakfix                      | 1.20.1-1.8             | FORGE    | DEFAULT           | 2023-11-20 21:52:16 |
+[23Dec2024 18:42:22.927] [main/INFO] [Mods Optimizer/]: | mekaweapons                        | 1.5.0                  | FORGE    | DEFAULT           | 2024-02-21 22:00:53 |
+[23Dec2024 18:42:22.927] [main/INFO] [Mods Optimizer/]: | structureessentials                | 1.20.1-3.4             | FORGE    | DEFAULT           | 2024-06-02 14:06:02 |
+[23Dec2024 18:42:22.928] [main/INFO] [Mods Optimizer/]: | controlling                        | 12.0.2                 | FORGE    | CLIENT            | 2023-07-16 04:39:00 |
+[23Dec2024 18:42:22.928] [main/INFO] [Mods Optimizer/]: | enhancedvisuals                    | 1.8.1                  | MIXED    | DEFAULT           | 2024-05-25 10:45:50 |
+[23Dec2024 18:42:22.928] [main/INFO] [Mods Optimizer/]: | placebo                            | 8.6.2                  | FORGE    | UNKNOWN           | 2024-06-10 00:10:20 |
+[23Dec2024 18:42:22.928] [main/INFO] [Mods Optimizer/]: | zombieawareness                    | 1.20.1-1.13.1          | FORGE    | UNKNOWN           | 2024-02-10 14:35:33 |
+[23Dec2024 18:42:22.929] [main/INFO] [Mods Optimizer/]: | bookshelf                          | 20.2.13                | FORGE    | DEFAULT           | 2024-06-13 15:16:22 |
+[23Dec2024 18:42:22.929] [main/INFO] [Mods Optimizer/]: | numismatics                        | 1.0.6+forge-mc1.20.1   | FORGE    | DEFAULT           | 2024-12-23 18:16:22 |
+[23Dec2024 18:42:22.929] [main/INFO] [Mods Optimizer/]: | achiopt                            | 1.0.5                  | FORGE    | DEFAULT           | 2024-05-22 12:21:55 |
+[23Dec2024 18:42:22.929] [main/INFO] [Mods Optimizer/]: | sophisticatedbackpacks             | 3.20.11-1115           | FORGE    | DEFAULT           | 2024-10-06 08:12:00 |
+[23Dec2024 18:42:22.929] [main/INFO] [Mods Optimizer/]: | mekanismgenerators                 | 10.4.9                 | FORGE    | UNKNOWN           | 2024-08-25 15:57:01 |
+[23Dec2024 18:42:22.930] [main/INFO] [Mods Optimizer/]: | melody                             | 1.0.2                  | FORGE    | DEFAULT           | 2024-02-15 11:41:44 |
+[23Dec2024 18:42:22.930] [main/INFO] [Mods Optimizer/]: | ftbteams                           | 2001.3.0               | FORGE    | DEFAULT           | 2024-04-16 09:38:20 |
+[23Dec2024 18:42:22.930] [main/INFO] [Mods Optimizer/]: | pfm                                | 1.2.1                  | FORGE    | DEFAULT           | 2024-12-23 18:30:32 |
+[23Dec2024 18:42:22.930] [main/INFO] [Mods Optimizer/]: | fabric_api                         | 0.0.0                  | FORGE    | DEFAULT           | 2024-12-23 18:20:19 |
+[23Dec2024 18:42:22.931] [main/INFO] [Mods Optimizer/]: | konkrete                           | 1.8.0                  | FORGE    | DEFAULT           | 2024-01-13 04:21:05 |
+[23Dec2024 18:42:22.931] [main/INFO] [Mods Optimizer/]: | sona                               | 1.0.3                  | FORGE    | DEFAULT           | 2024-10-03 18:54:14 |
+[23Dec2024 18:42:22.931] [main/INFO] [Mods Optimizer/]: | entity_model_features              | 2.2.6                  | FORGE    | CLIENT            | 2024-12-23 18:18:41 |
+[23Dec2024 18:42:22.931] [main/INFO] [Mods Optimizer/]: | farmersdelight                     | 1.20.1-1.2.4           | FORGE    | DEFAULT           | 2024-01-21 22:49:55 |
+[23Dec2024 18:42:22.932] [main/INFO] [Mods Optimizer/]: | rebornstorage                      | 5.0.7                  | FORGE    | UNKNOWN           | 2023-11-12 13:50:55 |
+[23Dec2024 18:42:22.932] [main/INFO] [Mods Optimizer/]: | entity_texture_features            | 6.2.5                  | FORGE    | CLIENT            | 2024-12-23 18:18:44 |
+[23Dec2024 18:42:22.932] [main/INFO] [Mods Optimizer/]: | ambientsounds                      | 6.1.1                  | MIXED    | CLIENT            | 2024-09-20 10:45:53 |
+[23Dec2024 18:42:22.932] [main/INFO] [Mods Optimizer/]: | projectvibrantjourneys             | 1.20.1-6.0.4           | FORGE    | UNKNOWN           | 2024-10-09 22:34:54 |
+[23Dec2024 18:42:22.932] [main/INFO] [Mods Optimizer/]: | mekanismadditions                  | 10.4.9                 | FORGE    | UNKNOWN           | 2024-08-25 15:57:01 |
+[23Dec2024 18:42:22.933] [main/INFO] [Mods Optimizer/]: | zombie_island                      | 0.1.2                  | FORGE    | UNKNOWN           | 2024-12-23 17:52:11 |
+[23Dec2024 18:42:22.933] [main/INFO] [Mods Optimizer/]: | apocalypsenow                      | 3.0.2                  | FORGE    | UNKNOWN           | 2024-12-23 17:52:05 |
+[23Dec2024 18:42:22.933] [main/INFO] [Mods Optimizer/]: | simplylight                        | 1.20.1-1.4.6-build.50  | FORGE    | DEFAULT           | 2023-11-01 20:00:07 |
+[23Dec2024 18:42:22.933] [main/INFO] [Mods Optimizer/]: | keerdm_zombie_essentials           | 1.4.0                  | FORGE    | DATA_PACK         | 2024-09-05 13:08:28 |
+[23Dec2024 18:42:22.934] [main/INFO] [Mods Optimizer/]: | collective                         | 7.84.0                 | MIXED    | UNKNOWN           | 2024-08-15 15:30:33 |
+[23Dec2024 18:42:22.934] [main/INFO] [Mods Optimizer/]: | lostcities                         | 7.3.2                  | FORGE    | DEFAULT           | 2024-08-14 06:42:36 |
+[23Dec2024 18:42:22.934] [main/INFO] [Mods Optimizer/]: | malilib                            | 0.16.3                 | FABRIC   | CLIENT            | 2024-12-23 18:25:53 |
+[23Dec2024 18:42:22.934] [main/INFO] [Mods Optimizer/]: | starterkit                         | 7.1.0                  | MIXED    | DEFAULT           | 2024-07-27 20:04:46 |
+[23Dec2024 18:42:22.935] [main/INFO] [Mods Optimizer/]: | scalingmobs                        | 2.2.1                  | FORGE    | DEFAULT           | 2024-08-06 14:17:17 |
+[23Dec2024 18:42:22.935] [main/INFO] [Mods Optimizer/]: | mekanismtools                      | 10.4.9                 | FORGE    | UNKNOWN           | 2024-08-25 15:57:01 |
+[23Dec2024 18:42:22.935] [main/INFO] [Mods Optimizer/]: | lootjs                             | 1.20.1-2.12.0          | FORGE    | DEFAULT           | 2024-12-23 18:25:48 |
+[23Dec2024 18:42:22.935] [main/INFO] [Mods Optimizer/]: | architectury                       | 9.2.14                 | FORGE    | DEFAULT           | 2024-12-23 17:52:20 |
+[23Dec2024 18:42:22.936] [main/INFO] [Mods Optimizer/]: | cupboard                           | 1.20.1-2.7             | FORGE    | DEFAULT           | 2024-06-24 22:44:28 |
+[23Dec2024 18:42:22.936] [main/INFO] [Mods Optimizer/]: | refurbished_furniture              | 1.0.6                  | FORGE    | UNKNOWN           | 2024-08-22 04:06:55 |
+[23Dec2024 18:42:22.936] [main/INFO] [Mods Optimizer/]: | mru                                | 1.0.2+1.20.1           | FORGE    | DEFAULT           | 2024-12-23 18:28:49 |
+[23Dec2024 18:42:22.936] [main/INFO] [Mods Optimizer/]: | astrocraft                         | 1.4.4+1.20.1           | FABRIC   | CLIENT            | 2024-12-23 17:52:05 |
+[23Dec2024 18:42:22.937] [main/INFO] [Mods Optimizer/]: | framework                          | 0.7.8                  | FORGE    | UNKNOWN           | 2024-09-04 06:36:55 |
+[23Dec2024 18:42:22.937] [main/INFO] [Mods Optimizer/]: | ags_day_counter                    | 4.0.0                  | FORGE    | SERVER            | 2024-12-23 18:19:15 |
+[23Dec2024 18:42:22.937] [main/INFO] [Mods Optimizer/]: | yeetusexperimentus                 | 2.3.1-build.6+mc1.20.1 | FORGE    | DEFAULT           | 2023-08-03 17:56:38 |
+[23Dec2024 18:42:22.937] [main/INFO] [Mods Optimizer/]: | lradd                              | 0.2.3                  | FORGE    | UNKNOWN           | 2024-09-16 21:37:18 |
+[23Dec2024 18:42:22.937] [main/INFO] [Mods Optimizer/]: | betteradvancements                 | 4.2.10                 | FORGE    | CLIENT            | 2024-12-23 17:55:52 |
+[23Dec2024 18:42:22.938] [main/INFO] [Mods Optimizer/]: | inventorysorter                    | 23.0.1                 | FORGE    | UNKNOWN           | 2023-07-20 14:44:51 |
+[23Dec2024 18:42:22.938] [main/INFO] [Mods Optimizer/]: | rhino                              | 2001.2.3-build.6       | FORGE    | UNKNOWN           | 2024-08-23 12:53:08 |
+[23Dec2024 18:42:22.939] [main/INFO] [Mods Optimizer/]: | nomoportals                        | 5.9.0                  | FORGE    | DEFAULT           | 2024-08-20 19:28:28 |
+[23Dec2024 18:42:22.939] [main/INFO] [Mods Optimizer/]: | octolib                            | 0.4.2                  | FORGE    | DEFAULT           | 2024-12-23 18:30:32 |
+[23Dec2024 18:42:22.939] [main/INFO] [Mods Optimizer/]: | tacz                               | 1.0.3                  | FORGE    | DEFAULT           | 2024-12-23 18:37:25 |
+[23Dec2024 18:42:22.940] [main/INFO] [Mods Optimizer/]: | pingwheel                          | 1.9.1                  | FORGE    | DEFAULT           | 2024-12-23 18:28:37 |
+[23Dec2024 18:42:22.940] [main/INFO] [Mods Optimizer/]: | map_atlases                        | 6.0.9                  | FORGE    | DEFAULT           | 2024-12-23 18:25:56 |
+[23Dec2024 18:42:22.941] [main/INFO] [Mods Optimizer/]: | geckoanimfix                       | 1.0.0                  | FORGE    | DEFAULT           | 2024-12-23 18:23:31 |
+[23Dec2024 18:42:22.941] [main/INFO] [Mods Optimizer/]: | create                             | 5.1.18                 | FORGE    | DEFAULT           | 2024-10-09 16:28:41 |
+[23Dec2024 18:42:22.942] [main/INFO] [Mods Optimizer/]: | marbledsarsenal                    | 1.20.1-2.3.0           | FORGE    | DEFAULT           | 2024-09-30 15:41:57 |
+[23Dec2024 18:42:22.942] [main/INFO] [Mods Optimizer/]: | clumps                             | 12.0.0-4               | FORGE    | UNKNOWN           | 2024-04-21 05:03:41 |
+[23Dec2024 18:42:22.942] [main/INFO] [Mods Optimizer/]: | fastsuite                          | 5.0.1                  | FORGE    | UNKNOWN           | 2023-08-18 16:10:28 |
+[23Dec2024 18:42:22.942] [main/INFO] [Mods Optimizer/]: | alternate_current                  | 1.7.0                  | FORGE    | DEFAULT           | 2023-08-25 16:47:37 |
+[23Dec2024 18:42:22.943] [main/INFO] [Mods Optimizer/]: | thedarkcolour.kotlinforforge       | 0.0.0                  | FORGE    | LIBRARY           | 2024-12-23 18:25:46 |
+[23Dec2024 18:42:22.943] [main/INFO] [Mods Optimizer/]: | mcore                              | 1.0.1                  | FORGE    | DEFAULT           | 2024-09-23 21:05:26 |
+[23Dec2024 18:42:22.943] [main/INFO] [Mods Optimizer/]: | myserveriscompatible               | 1.0.0                  | FORGE    | CLIENT            | 2023-06-11 12:30:54 |
+[23Dec2024 18:42:22.943] [main/INFO] [Mods Optimizer/]: | mods_optimizer                     | 2.0.0                  | FORGE    | DEFAULT           | 2024-02-25 20:14:49 |
+[23Dec2024 18:42:22.944] [main/INFO] [Mods Optimizer/]: | mr_lithosphere                     | 1.2.0                  | MIXED    | DATA_PACK         | 2024-12-23 18:26:08 |
+[23Dec2024 18:42:22.944] [main/INFO] [Mods Optimizer/]: | mekanismexplosives                 | 1.0.0                  | FORGE    | UNKNOWN           | 2024-12-23 18:29:10 |
+[23Dec2024 18:42:22.944] [main/INFO] [Mods Optimizer/]: | firstaid                           | 1.20.1-1.1             | FORGE    | UNKNOWN           | 2024-07-14 15:45:19 |
+[23Dec2024 18:42:22.945] [main/INFO] [Mods Optimizer/]: | skinlayers3d                       | 1.6.7                  | FORGE    | UNKNOWN           | 2024-12-23 18:34:16 |
+[23Dec2024 18:42:22.945] [main/INFO] [Mods Optimizer/]: | tlskincape                         | 1.32.0                 | FORGE    | CLIENT            | 2024-12-23 18:37:17 |
+[23Dec2024 18:42:22.945] [main/INFO] [Mods Optimizer/]: | homyatos_explosives                | 0.9.6                  | FORGE    | DEFAULT           | 2024-06-27 11:11:37 |
+[23Dec2024 18:42:22.945] [main/INFO] [Mods Optimizer/]: | thingamajigs                       | 1.7.3                  | FORGE    | UNKNOWN           | 2024-12-23 18:37:25 |
+[23Dec2024 18:42:22.945] [main/INFO] [Mods Optimizer/]: | moonlight                          | 2.13.7                 | FORGE    | DEFAULT           | 2024-12-23 18:29:05 |
+[23Dec2024 18:42:22.946] [main/INFO] [Mods Optimizer/]: | extragore                          | 5.2.3-1                | FORGE    | DEFAULT           | 2024-06-04 19:55:10 |
+[23Dec2024 18:42:22.946] [main/INFO] [Mods Optimizer/]: | jade                               | 11.11.1+forge          | FORGE    | DEFAULT           | 2024-08-29 02:28:09 |
+[23Dec2024 18:42:22.946] [main/INFO] [Mods Optimizer/]: | mekanism_turrets                   | 1.1.9                  | FORGE    | DEFAULT           | 2024-08-26 00:35:17 |
+[23Dec2024 18:42:22.946] [main/INFO] [Mods Optimizer/]: | creativecore                       | 2.12.17                | FORGE    | DEFAULT           | 2024-10-01 17:17:28 |
+[23Dec2024 18:42:22.947] [main/INFO] [Mods Optimizer/]: | culllessleaves                     | 1.20.1-1.0.5           | FORGE    | DEFAULT           | 2023-12-01 13:36:13 |
+[23Dec2024 18:42:22.947] [main/INFO] [Mods Optimizer/]: | infinitybuttons                    | 1.20.1-4.0.4           | FORGE    | DEFAULT           | 2024-05-09 18:01:57 |
+[23Dec2024 18:42:22.947] [main/INFO] [Mods Optimizer/]: | smoothboot                         | 0.0.4                  | FORGE    | CLIENT            | 2024-01-08 02:43:13 |
+[23Dec2024 18:42:22.948] [main/INFO] [Mods Optimizer/]: | sounds                             | 2.1.0+1.20.1           | FORGE    | DEFAULT           | 2024-12-23 18:37:25 |
+[23Dec2024 18:42:22.948] [main/INFO] [Mods Optimizer/]: | cavedust                           | 2.0.1                  | FORGE    | DEFAULT           | 2024-12-23 18:37:07 |
+[23Dec2024 18:42:22.949] [main/INFO] [Mods Optimizer/]: | iceberg                            | 1.1.21                 | FORGE    | DEFAULT           | 2024-02-26 12:58:04 |
+[23Dec2024 18:42:22.949] [main/INFO] [Mods Optimizer/]: | mobsunscreen                       | 3.1.1                  | FORGE    | SERVER            | 2023-07-14 19:14:08 |
+[23Dec2024 18:42:22.949] [main/INFO] [Mods Optimizer/]: | jei_mekanism_multiblocks           | 4.5.0                  | FORGE    | DEFAULT           | 2024-08-16 21:10:33 |
+[23Dec2024 18:42:22.949] [main/INFO] [Mods Optimizer/]: | betterchunkloading                 | 1.20.1-4.5             | FORGE    | DEFAULT           | 2024-09-22 19:41:10 |
+[23Dec2024 18:42:22.950] [main/INFO] [Mods Optimizer/]: | fancymenu                          | 3.2.3                  | FORGE    | CLIENT            | 2024-05-13 11:28:30 |
+[23Dec2024 18:42:22.950] [main/INFO] [Mods Optimizer/]: | coroutil                           | 1.20.1-1.3.7           | FORGE    | DEFAULT           | 2024-02-10 13:39:18 |
+[23Dec2024 18:42:22.950] [main/INFO] [Mods Optimizer/]: | nobz                               | 1.0.0                  | FORGE    | UNKNOWN           | 2024-01-08 20:58:41 |
+[23Dec2024 18:42:22.950] [main/INFO] [Mods Optimizer/]: | automobility                       | 0.4.2+1.20.1-forge     | FORGE    | DEFAULT           | 2024-12-23 17:54:58 |
+[23Dec2024 18:42:22.951] [main/INFO] [Mods Optimizer/]: | ferritecore                        | 6.0.1                  | FORGE    | DEFAULT           | 2023-10-22 15:27:07 |
+[23Dec2024 18:42:22.951] [main/INFO] [Mods Optimizer/]: | powered_flashlight                 | 1.0.0                  | FORGE    | DEFAULT           | 2024-08-09 19:05:03 |
+[23Dec2024 18:42:22.951] [main/INFO] [Mods Optimizer/]: | vpb_hud                            | 1.0.0                  | FORGE    | UNKNOWN           | 2024-12-23 17:52:05 |
+[23Dec2024 18:42:22.951] [main/INFO] [Mods Optimizer/]: | badoptimizations                   | 2.1.4                  | MIXED    | DATA_PACK         | 2024-12-23 17:54:49 |
+[23Dec2024 18:42:22.952] [main/INFO] [Mods Optimizer/]: | horde_hoard                        | 1.1.0                  | FORGE    | UNKNOWN           | 2024-12-23 18:18:34 |
+[23Dec2024 18:42:22.952] [main/INFO] [Mods Optimizer/]: | createaddition                     | 1.20.1-1.2.4e          | FORGE    | DEFAULT           | 2024-08-24 12:25:04 |
+[23Dec2024 18:42:22.952] [main/INFO] [Mods Optimizer/]: | presencefootsteps                  | 1.20.1-1.9.1-beta.1    | FORGE    | CLIENT            | 2024-12-23 18:34:45 |
+[23Dec2024 18:42:22.952] [main/INFO] [Mods Optimizer/]: -------------------------------------------------------------------------------------------------------------------
+[23Dec2024 18:42:22.953] [main/INFO] [Mods Optimizer/]: ♻ Parsed 198 mods in 385 ms.
+[23Dec2024 18:42:22.954] [main/INFO] [Mods Optimizer/]: ✔ No duplicated mods found.
+[23Dec2024 18:42:22.954] [main/INFO] [Mods Optimizer/]: ❌ Disable possible 28 client side mods ...
+[23Dec2024 18:42:22.955] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod consolefilter ...
+[23Dec2024 18:42:22.956] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod consolefilter!
+[23Dec2024 18:42:22.956] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod betterfpsdist ...
+[23Dec2024 18:42:22.957] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod betterfpsdist!
+[23Dec2024 18:42:22.957] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod controlling ...
+[23Dec2024 18:42:22.957] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod controlling!
+[23Dec2024 18:42:22.957] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod loot_journal ...
+[23Dec2024 18:42:22.958] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod loot_journal!
+[23Dec2024 18:42:22.958] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod dynamic_fps ...
+[23Dec2024 18:42:22.958] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod dynamic_fps!
+[23Dec2024 18:42:22.958] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod drippyloadingscreen ...
+[23Dec2024 18:42:22.959] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod drippyloadingscreen!
+[23Dec2024 18:42:22.959] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod fancymenu ...
+[23Dec2024 18:42:22.959] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod fancymenu!
+[23Dec2024 18:42:22.959] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod myserveriscompatible ...
+[23Dec2024 18:42:22.959] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod myserveriscompatible!
+[23Dec2024 18:42:22.960] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod catalogue ...
+[23Dec2024 18:42:22.960] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod catalogue!
+[23Dec2024 18:42:22.960] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod presencefootsteps ...
+[23Dec2024 18:42:22.961] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod presencefootsteps!
+[23Dec2024 18:42:22.961] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod entityculling ...
+[23Dec2024 18:42:22.961] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod entityculling!
+[23Dec2024 18:42:22.961] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod dynamiccrosshair ...
+[23Dec2024 18:42:22.962] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod dynamiccrosshair!
+[23Dec2024 18:42:22.962] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod searchables ...
+[23Dec2024 18:42:22.962] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod searchables!
+[23Dec2024 18:42:22.963] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod betteradvancements ...
+[23Dec2024 18:42:22.963] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod betteradvancements!
+[23Dec2024 18:42:22.963] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod tlskincape ...
+[23Dec2024 18:42:22.964] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod tlskincape!
+[23Dec2024 18:42:22.964] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod entity_model_features ...
+[23Dec2024 18:42:22.964] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod entity_model_features!
+[23Dec2024 18:42:22.964] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod smoothboot ...
+[23Dec2024 18:42:22.965] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod smoothboot!
+[23Dec2024 18:42:22.965] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod oculus ...
+[23Dec2024 18:42:22.965] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod oculus!
+[23Dec2024 18:42:22.965] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod astrocraft ...
+[23Dec2024 18:42:22.966] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod astrocraft!
+[23Dec2024 18:42:22.966] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod ambientsounds ...
+[23Dec2024 18:42:22.966] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod ambientsounds!
+[23Dec2024 18:42:22.966] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod entity_texture_features ...
+[23Dec2024 18:42:22.967] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod entity_texture_features!
+[23Dec2024 18:42:22.967] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod malilib ...
+[23Dec2024 18:42:22.968] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod malilib!
+[23Dec2024 18:42:22.968] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod tipsmod ...
+[23Dec2024 18:42:22.968] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod tipsmod!
+[23Dec2024 18:42:22.969] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod immediatelyfast ...
+[23Dec2024 18:42:22.969] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod immediatelyfast!
+[23Dec2024 18:42:22.969] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod embeddiumplus ...
+[23Dec2024 18:42:22.969] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod embeddiumplus!
+[23Dec2024 18:42:22.969] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod fallingleaves ...
+[23Dec2024 18:42:22.970] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod fallingleaves!
+[23Dec2024 18:42:22.970] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod appleskin ...
+[23Dec2024 18:42:22.970] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod appleskin!
+[23Dec2024 18:42:22.970] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ❌ Try to disable client side mod extrasounds ...
+[23Dec2024 18:42:22.970] [main/INFO] [Mods Optimizer/]: [Client Side Mod] ✔ Disabled client side mod extrasounds!
+[23Dec2024 18:42:22.971] [main/INFO] [Mods Optimizer/]: ❌ Disabled 28 client side mods in 16 ms.
+[23Dec2024 18:42:22.971] [main/INFO] [Mods Optimizer/]: ⏱ Mod Optimizer needs 473 ms in total.
+[23Dec2024 18:42:23.535] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/BOLUDOSSAFIO/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[23Dec2024 18:42:23.540] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/BOLUDOSSAFIO/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[23Dec2024 18:42:23.541] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/BOLUDOSSAFIO/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[23Dec2024 18:42:23.542] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/BOLUDOSSAFIO/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[23Dec2024 18:42:24.246] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[23Dec2024 18:42:24.247] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: architectury. Using Mod File: /workspaces/BOLUDOSSAFIO/servidor_minecraft/mods/architectury-9.2.14-forge.jar
+[23Dec2024 18:42:24.247] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 83 dependencies adding them to mods collection
+[23Dec2024 18:42:25.127] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 0 candidates to load
+[23Dec2024 18:42:26.656] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[23Dec2024 18:42:29.309] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[23Dec2024 18:42:29.740] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[23Dec2024 18:42:29.740] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.leobeliik.extremesoundmuffler.MixinConnector]
+[23Dec2024 18:42:29.755] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[23Dec2024 18:42:29.831] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.19.4+mc1.20.1: 84 options available, 0 override(s) found
+[23Dec2024 18:42:29.832] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[23Dec2024 18:42:29.847] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[23Dec2024 18:42:29.883] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 263 options available, 0 override(s) found
+[23Dec2024 18:42:29.887] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/embeddedt/embeddium_integrity/MixinTaintDetector$EnforceLevel
+[23Dec2024 18:42:29.899] [main/WARN] [mixin/]: Reference map 'lmft-common-refmap.json' for lmft-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Dec2024 18:42:29.963] [main/INFO] [Radium Config/]: Loaded configuration file for Radium: 125 options available, 1 override(s) found
+[23Dec2024 18:42:29.983] [main/WARN] [mixin/]: Reference map 'gundurability.refmap.json' for gundurability.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Dec2024 18:42:30.001] [main/WARN] [mixin/]: Reference map 'tfmg.refmap.json' for design_decor.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Dec2024 18:42:30.021] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ca/fxco/memoryleakfix/mixinextras/service/MixinExtrasVersion
+[23Dec2024 18:42:30.091] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting fuzs/puzzleslib/api/core/v1/ModLoader
+[23Dec2024 18:42:30.125] [main/INFO] [Puzzles Lib/]: Loading 218 mods:
+	- achiopt 1.0.5
+	- advancementplaques 1.6.7
+	- ags_day_counter 4.0
+	- alternate_current 1.7.0
+	- ambientenvironment 11.0.0.1
+	- apocalypsenow 3.0.2
+	- architectury 9.2.14
+	- attributefix 21.0.4
+	- automobility 0.4.2+1.20.1-forge
+	- badoptimizations 2.1.4
+	- betterchunkloading 1.20.1-4.5
+	- biomesoplenty 18.0.0.592
+	- blocksyouneed_luna 1.6.4
+	- bookshelf 20.2.13
+	- cavedust 2.0.1
+	- chunksending 1.20.1-2.8
+	- cleanswing 1.20-1.5
+	- cleanview 1.20.1-v1
+	- cloth_config 11.1.136
+	- clumps 12.0.0.4
+	- collective 7.84
+	- connectormod 1.0.0-beta.46+1.20.1
+	- coroutil 1.20.1-1.3.7
+	- create 0.5.1.i
+		\-- flywheel 0.6.11-13
+	- create_factory 0.4b-1.20.1
+	- createaddition 1.20.1-1.2.4e
+	- createdieselgenerators 1.20.1-1.2i
+	- createloveandwar 0.2-1.20.1
+	- createtaczauto 1.1.2
+	- creativecore 2.12.17
+	- cristellib 1.1.5
+	- culllessleaves 1.20.1-1.0.5
+	- cupboard 1.20.1-2.7
+	- curios 5.10.0+1.20.1
+	- damageindicator 2.0.0-1.20.1
+	- design_decor 0.4.0b
+	- dtbop 1.20.1-3.2.5
+	- dynamictrees 1.20.1-1.3.3
+	- embeddium 0.3.31+mc1.20.1
+		\-- rubidium 0.7.1
+	- enhancedvisuals 1.8.1
+	- entityjs 0.3.3-1.20.1
+	- explosiveenhancement 1.0.1-tacz
+	- extinction 1.1.0
+	- extragore 5.2.3.1
+	- extremesoundmuffler 3.48
+	- fabric_api 0.92.2+1.11.8+1.20.1
+		|-- fabric_api_base 0.4.31+ef105b4977
+		|-- fabric_api_lookup_api_v1 1.6.36+67f9824077
+		|-- fabric_biome_api_v1 13.0.13+dc36698e77
+		|-- fabric_block_api_v1 1.0.11+0e6cb7f777
+		|-- fabric_block_view_api_v2 1.0.1+0767707077
+		|-- fabric_blockrenderlayer_v1 1.1.41+1d0da21e77
+		|-- fabric_client_tags_api_v1 1.1.2+5d6761b877
+		|-- fabric_command_api_v1 1.2.34+f71b366f77
+		|-- fabric_command_api_v2 2.2.13+561530ec77
+		|-- fabric_content_registries_v0 4.0.11+a670df1e77
+		|-- fabric_convention_tags_v1 1.5.5+fa3d1c0177
+		|-- fabric_data_attachment_api_v1 1.0.0+30ef839e77
+		|-- fabric_data_generation_api_v1 12.3.4+369cb3a477
+		|-- fabric_dimensions_v1 2.1.54+8005d10d77
+		|-- fabric_entity_events_v1 1.6.0+6274ab9d77
+		|-- fabric_events_interaction_v0 0.6.2+0d0bd5a777
+		|-- fabric_game_rule_api_v1 1.0.40+683d4da877
+		|-- fabric_item_api_v1 2.1.28+4d0bbcfa77
+		|-- fabric_item_group_api_v1 4.0.12+c9161c2d77
+		|-- fabric_key_binding_api_v1 1.0.37+561530ec77
+		|-- fabric_lifecycle_events_v1 2.2.22+afab492177
+		|-- fabric_loot_api_v2 1.2.1+eb28f93e77
+		|-- fabric_message_api_v1 5.1.9+52cc178c77
+		|-- fabric_mining_level_api_v1 2.1.50+561530ec77
+		|-- fabric_model_loading_api_v1 1.0.3+6274ab9d77
+		|-- fabric_models_v0 0.4.2+7c3892a477
+		|-- fabric_networking_api_v1 1.3.11+503a202477
+		|-- fabric_object_builder_api_v1 11.1.3+2174fc8477
+		|-- fabric_particles_v1 1.1.2+78e1ecb877
+		|-- fabric_recipe_api_v1 1.0.21+514a076577
+		|-- fabric_registry_sync_v0 2.3.3+1c0ea72177
+		|-- fabric_renderer_api_v1 3.2.1+1d29b44577
+		|-- fabric_renderer_indigo 1.5.2+b5b2da4177
+		|-- fabric_rendering_data_attachment_v1 0.3.37+a6081afc77
+		|-- fabric_rendering_fluids_v1 3.0.28+4ac5e37a77
+		|-- fabric_rendering_v1 3.0.8+66e9a48f77
+		|-- fabric_resource_conditions_api_v1 2.3.8+9ad825cd77
+		|-- fabric_resource_loader_v0 0.11.10+bcd08ed377
+		|-- fabric_screen_api_v1 2.0.8+45a670a577
+		|-- fabric_screen_handler_api_v1 1.3.30+561530ec77
+		|-- fabric_sound_api_v1 1.0.13+4f23bd8477
+		|-- fabric_transfer_api_v1 3.3.5+631c9cd677
+		\-- fabric_transitive_access_wideners_v1 4.3.1+1880499877
+	- farmersdelight 1.20.1-1.2.4
+	- fastasyncworldsave 1.20.1-2.0
+	- fastfurnace 8.0.2
+	- fastsuite 5.0.1
+	- ferritecore 6.0.1
+	- fibers 1.3
+	- firstaid 1.20.1-1.1
+	- flansmod 0.4
+	- forge 47.3.7
+	- framework 0.7.8
+	- ftblibrary 2001.2.4
+	- ftbqoptimizer 2.0.4-1.20.1
+	- ftbquestlocalizer 2.0.0
+	- ftbquests 2001.4.8
+	- ftbteams 2001.3.0
+	- ftbxmodcompat 2.1.1
+	- geckoanimfix 1.0.0
+	- geckolib 4.4.9
+	- glitchcore 0.0.1.1
+	- globalgamerules 8.0.0.11
+	- globalpacks 1.16.2_forge
+	- gpumemleakfix 1.20.1-1.8
+	- gundurability 1.0-SNAPSHOT
+	- homyatos_explosives 0.9.6
+	- horde_hoard 1.1.0
+	- horror_element_mod 1.6.0
+	- iceberg 1.1.21
+	- immersive_weathering 1.20.1-2.0.3
+	- infinitybuttons 1.20.1-4.0.4
+	- inventorysorter 23.0.1
+	- jade 11.11.1+forge
+	- jadeaddons 5.3.1+forge
+	- jei 15.20.0.104
+	- jei_mekanism_multiblocks 4.5
+	- keerdm_zombie_essentials 1.4
+	- konkrete 1.8.0
+	- kotlinforforge 4.11.0
+	- krypton 0.2.3
+	- kubejs 2001.6.5-build.14
+	- leavesbegone 8.0.0
+	- lmft 1.0.4+1.20.1
+	- logbegone 1.0.8
+	- lootjs 1.20.1-2.12.0
+	- lostcities 1.20-7.3.2
+	- lradd 0.2.3
+	- lrarmor 0.1.4.3
+	- map_atlases 1.20-6.0.9
+	- marbledsarsenal 1.20.1-2.3.0
+	- marbledsendless 1.0.0
+	- marbledsnetherless 1.0.2
+	- mcore 1.0.1
+	- mekanism 10.4.9
+	- mekanism_turrets 1.1.9
+	- mekanismadditions 10.4.9
+	- mekanismexplosives 1.0.0
+	- mekanismgenerators 10.4.9
+	- mekanismtools 10.4.9
+	- mekaweapons 1.5
+	- melody 1.0.2
+	- memoryleakfix 1.1.5
+	- mindfuldarkness 8.0.3
+	- minecraft 1.20.1
+	- mobsunscreen 3.1.1
+	- modernfix 5.19.4+mc1.20.1
+	- modernui 3.11.0.1
+	- moonlight 1.20-2.13.7
+	- mr_lithosphere 1.2
+	- mr_village_nullifier 1.0.0
+	- mru 1.0.2+1.20.1+forge
+	- mutantmonsters 8.0.7
+	- nerb 0.4.1
+	- nobz 1.0
+	- noisium 2.3.0+mc1.20-1.20.1
+	- nomoportals 5.9
+	- notenoughcrashes 4.4.7+1.20.1
+	- numismatics 1.0.6+forge-mc1.20.1
+	- octolib 0.4.2
+	- pfm 1.2.1
+	- pingwheel 1.9.1
+	- pipez 1.20.1-1.2.16
+	- placebo 8.6.2
+	- pointblank 1.7.6
+	- powered_flashlight 1.0.0
+	- projectvibrantjourneys 1.20.1-6.0.4
+	- puzzleslib 8.1.24
+		\-- puzzlesaccessapi 8.0.7
+	- questsadditions 1.4.6
+	- radium 0.12.4+git.26c9d8e
+	- rebornstorage 5.0.7
+	- refinedstorage 1.12.4
+	- refurbished_furniture 1.0.6
+	- rhino 2001.2.3-build.6
+	- scalingmobs 2.2.1
+	- securitycraft 1.9.11
+	- sereneseasons 9.0.0.46
+	- simplylight 1.20.1-1.4.6-build.50
+	- skinlayers3d 1.6.7
+	- sliceanddice 3.3.0
+	- smoothchunk 1.20.1-3.6
+	- sona 1.0.3
+	- sophisticatedbackpacks 3.20.11.1115
+	- sophisticatedcore 0.6.34.718
+	- sound_physics_remastered 1.20.1-1.4.5
+	- sounds 2.1.0+1.20.1+forge
+		\-- yet_another_config_lib_v3 3.5.0+1.20.1-forge
+	- spark 1.10.53
+	- starterkit 7.1
+	- structureessentials 1.20.1-3.4
+	- tacz 1.0.3
+		\-- mixinextras 0.3.6
+	- tacz_npc 2.1
+	- terrablender 3.0.1.7
+	- thingamajigs 1.7.3
+	- thirst 1.20.1-1.3.9
+	- underground_bunkers 1.0.5
+	- voicechat 1.20.1-2.5.24
+	- vpb_hud 1.0.0
+	- waterdripsound 0.3.2
+	- wegotrunnners 1.0.0
+	- welcomemessage 2.6
+	- xkdeco 0.8.2+forge
+		\-- kiwi 11.8.20+forge
+	- yeetusexperimentus 2.3.1-build.6+mc1.20.1
+	- zombie_extreme 0.2.6
+	- zombie_island 0.1.2
+	- zombieawareness 1.20.1-1.13.1
+	- zombiekit 2.0.1
+	- zombiesmore 2.0.0
+[23Dec2024 18:42:30.145] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Dec2024 18:42:30.158] [main/WARN] [mixin/]: Reference map 'mekaweapons.refmap.json' for mekaweapons.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Dec2024 18:42:30.173] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/llamalad7/mixinextras/service/MixinExtrasVersion
+[23Dec2024 18:42:30.179] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/llamalad7/mixinextras/lib/semver/VersionParser$CharType
+[23Dec2024 18:42:30.226] [main/WARN] [mixin/]: Reference map 'AchievementOptimizer.refmap.json' for achiopt.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Dec2024 18:42:30.275] [main/WARN] [mixin/]: Reference map 'FTBQuestsOptimizer.refmap.json' for ftbqoptimizer.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Dec2024 18:42:30.295] [main/WARN] [mixin/]: Reference map 'LesRaisinsAddon_1201.refmap.json' for lradd.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Dec2024 18:42:30.339] [main/WARN] [mixin/]: Reference map 'mixins.mekanism_turrets.refmap.json' for mixins.mekanism_turrets.json could not be read. If this is a development environment you can ignore this message
+[23Dec2024 18:42:30.367] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Dec2024 18:42:30.384] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting malte0811/ferritecore/mixin/config/FerriteMixinConfig$LithiumSupportState
+[23Dec2024 18:42:30.412] [main/INFO] [BadOptimizations/]: Creating config file version 3 at /workspaces/BOLUDOSSAFIO/servidor_minecraft/config/badoptimizations.txt
+[23Dec2024 18:42:30.428] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Dec2024 18:42:30.872] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
+[23Dec2024 18:42:30.872] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
+[23Dec2024 18:42:30.873] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
+[23Dec2024 18:42:30.874] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[23Dec2024 18:42:30.875] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[23Dec2024 18:42:30.875] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
+[23Dec2024 18:42:30.954] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[23Dec2024 18:42:30.963] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[23Dec2024 18:42:30.976] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/block/entity/KegBlockEntity (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.block.entity.KegBlockEntity)
+[23Dec2024 18:42:30.976] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.block.entity.KegBlockEntity was not found thirst.mixin.json:accessors.brewinandchewin.KegBlockEntityAccessor from mod thirst
+[23Dec2024 18:42:30.978] [main/WARN] [mixin/]: Error loading class: umpaz/brewinandchewin/common/block/entity/KegBlockEntity (java.lang.ClassNotFoundException: umpaz.brewinandchewin.common.block.entity.KegBlockEntity)
+[23Dec2024 18:42:30.978] [main/WARN] [mixin/]: @Mixin target umpaz.brewinandchewin.common.block.entity.KegBlockEntity was not found thirst.mixin.json:brewinandchewin.MixinKegBlockEntity from mod thirst
+[23Dec2024 18:42:30.983] [main/WARN] [mixin/]: Error loading class: umpaz/farmersrespite/common/block/entity/KettleBlockEntity (java.lang.ClassNotFoundException: umpaz.farmersrespite.common.block.entity.KettleBlockEntity)
+[23Dec2024 18:42:30.983] [main/WARN] [mixin/]: @Mixin target umpaz.farmersrespite.common.block.entity.KettleBlockEntity was not found thirst.mixin.json:farmersrespite.MixinKettleBlockEntity from mod thirst
+[23Dec2024 18:42:30.985] [main/WARN] [mixin/]: Error loading class: toughasnails/item/EmptyCanteenItem (java.lang.ClassNotFoundException: toughasnails.item.EmptyCanteenItem)
+[23Dec2024 18:42:30.986] [main/WARN] [mixin/]: @Mixin target toughasnails.item.EmptyCanteenItem was not found thirst.mixin.json:toughasnails.MixinEmptyCanteenItem from mod thirst
+[23Dec2024 18:42:30.988] [main/WARN] [mixin/]: Error loading class: toughasnails/config/ServerConfig (java.lang.ClassNotFoundException: toughasnails.config.ServerConfig)
+[23Dec2024 18:42:30.988] [main/WARN] [mixin/]: @Mixin target toughasnails.config.ServerConfig was not found thirst.mixin.json:toughasnails.MixinServerConfig from mod thirst
+[23Dec2024 18:42:30.990] [main/WARN] [mixin/]: Error loading class: toughasnails/thirst/ThirstHandler (java.lang.ClassNotFoundException: toughasnails.thirst.ThirstHandler)
+[23Dec2024 18:42:30.990] [main/WARN] [mixin/]: @Mixin target toughasnails.thirst.ThirstHandler was not found thirst.mixin.json:toughasnails.MixinThirstHandler from mod thirst
+[23Dec2024 18:42:30.992] [main/WARN] [mixin/]: Error loading class: toughasnails/thirst/ThirstHelperImpl (java.lang.ClassNotFoundException: toughasnails.thirst.ThirstHelperImpl)
+[23Dec2024 18:42:30.992] [main/WARN] [mixin/]: @Mixin target toughasnails.thirst.ThirstHelperImpl was not found thirst.mixin.json:toughasnails.MixinThirstHelperImpl from mod thirst
+[23Dec2024 18:42:30.994] [main/WARN] [mixin/]: Error loading class: toughasnails/client/handler/TooltipHandler (java.lang.ClassNotFoundException: toughasnails.client.handler.TooltipHandler)
+[23Dec2024 18:42:30.994] [main/WARN] [mixin/]: @Mixin target toughasnails.client.handler.TooltipHandler was not found thirst.mixin.json:toughasnails.MixinTooltipHandler from mod thirst
+[23Dec2024 18:42:31.147] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[23Dec2024 18:42:31.876] [main/WARN] [com.cupboard.Cupboard/]: Config structureessentials.json not found, recreating default
+[23Dec2024 18:42:31.877] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json
+[23Dec2024 18:42:31.919] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ithundxr/createnumismatics/compat/Mods
+[23Dec2024 18:42:32.405] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[23Dec2024 18:42:32.405] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[23Dec2024 18:42:32.822] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-beta.2).
+[23Dec2024 18:42:33.360] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/Unit
+[23Dec2024 18:42:33.387] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/ChatFormatting
+[23Dec2024 18:42:33.429] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_216202_ in modernfix-forge.mixins.json:perf.tag_id_caching.TagOrElementLocationMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[23Dec2024 18:42:33.886] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[23Dec2024 18:42:33.888] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[23Dec2024 18:42:33.991] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (15.63 s after launch)
+[23Dec2024 18:42:34.355] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/Util$IdentityStrategy
+[23Dec2024 18:42:34.368] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/fabricmc/fabric/api/event/registry/RegistryAttribute
+[23Dec2024 18:42:34.371] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Holder$Reference$Type
+[23Dec2024 18:42:34.543] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
+[23Dec2024 18:42:34.544] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
+[23Dec2024 18:42:35.466] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[23Dec2024 18:42:35.466] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[23Dec2024 18:42:35.467] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[23Dec2024 18:42:36.915] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction
+[23Dec2024 18:42:36.917] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$AxisDirection
+[23Dec2024 18:42:36.918] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$Axis
+[23Dec2024 18:42:37.039] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$Plane
+[23Dec2024 18:42:37.042] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/FrontAndTop
+[23Dec2024 18:42:37.045] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/AttachFace
+[23Dec2024 18:42:37.046] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BellAttachType
+[23Dec2024 18:42:37.047] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/WallSide
+[23Dec2024 18:42:37.047] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/RedstoneSide
+[23Dec2024 18:42:37.048] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DoubleBlockHalf
+[23Dec2024 18:42:37.049] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/Half
+[23Dec2024 18:42:37.050] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/RailShape
+[23Dec2024 18:42:37.053] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BedPart
+[23Dec2024 18:42:37.054] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/ChestType
+[23Dec2024 18:42:37.054] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/ComparatorMode
+[23Dec2024 18:42:37.055] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DoorHingeSide
+[23Dec2024 18:42:37.055] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/NoteBlockInstrument
+[23Dec2024 18:42:37.156] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/NoteBlockInstrument$Type
+[23Dec2024 18:42:37.157] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/PistonType
+[23Dec2024 18:42:37.158] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/SlabType
+[23Dec2024 18:42:37.159] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/StairsShape
+[23Dec2024 18:42:37.159] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/StructureMode
+[23Dec2024 18:42:37.160] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BambooLeaves
+[23Dec2024 18:42:37.160] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/Tilt
+[23Dec2024 18:42:37.161] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DripstoneThickness
+[23Dec2024 18:42:37.162] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/SculkSensorPhase
+[23Dec2024 18:42:37.926] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/material/PushReaction
+[23Dec2024 18:42:38.043] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/RenderShape
+[23Dec2024 18:42:38.092] [main/WARN] [mixin/]: Mixin sona.mixins.json:ItemStackMixin from mod sona has multiple constructors, (Ljava/lang/Class;)V was selected
+
+[23Dec2024 18:42:38.102] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[23Dec2024 18:42:38.103] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[23Dec2024 18:42:38.137] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/Biome$Precipitation
+[23Dec2024 18:42:38.139] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ordana/immersive_weathering/util/Weatherable$WeatheringState
+[23Dec2024 18:42:38.140] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ordana/immersive_weathering/blocks/mossy/Mossable$MossLevel
+[23Dec2024 18:42:38.146] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/pathfinder/PathComputationType
+[23Dec2024 18:42:38.148] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/BlockBehaviour$OffsetType
+[23Dec2024 18:42:38.174] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 4178 milliseconds
+[23Dec2024 18:42:38.224] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/NetworkDirection
+[23Dec2024 18:42:38.265] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/DyeColor
+[23Dec2024 18:42:38.267] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/ByIdMap$OutOfBoundsStrategy
+[23Dec2024 18:42:38.284] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/Rotation
+[23Dec2024 18:42:38.332] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/InteractionHand
+[23Dec2024 18:42:38.333] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/InteractionResult
+[23Dec2024 18:42:38.334] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/Mirror
+[23Dec2024 18:42:38.346] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/AxisCycle
+[23Dec2024 18:42:38.357] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/player/Player$BedSleepingProblem
+[23Dec2024 18:42:38.358] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/DoubleBlockCombiner$BlockType
+[23Dec2024 18:42:38.404] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/effect/MobEffectCategory
+[23Dec2024 18:42:38.407] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/attributes/AttributeModifier$Operation
+[23Dec2024 18:42:38.426] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ordana/immersive_weathering/blocks/cracked/Crackable$CrackLevel
+[23Dec2024 18:42:38.639] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/PressurePlateBlock$Sensitivity
+[23Dec2024 18:42:38.640] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ordana/immersive_weathering/blocks/rusty/Rustable$RustLevel
+[23Dec2024 18:42:38.669] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/EquipmentSlot
+[23Dec2024 18:42:38.695] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/MultifaceSpreader$SpreadType
+[23Dec2024 18:42:38.760] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/SkullBlock$Types
+[23Dec2024 18:42:39.038] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/JigsawBlockEntity$JointType
+[23Dec2024 18:42:39.046] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/BeehiveBlockEntity$BeeReleaseStatus
+[23Dec2024 18:42:39.089] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/WeatheringCopper$WeatherState
+[23Dec2024 18:42:39.299] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/Rarity
+[23Dec2024 18:42:39.323] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/vehicle/AbstractMinecart$Type
+[23Dec2024 18:42:39.362] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin from mod refurbished_furniture::handler$blp000$refurbished_furniture$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[23Dec2024 18:42:39.389] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MobCategory
+[23Dec2024 18:42:39.594] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/goal/Goal$Flag
+[23Dec2024 18:42:39.855] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Pose
+[23Dec2024 18:42:39.856] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/sniffer/Sniffer$State
+[23Dec2024 18:42:39.858] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_135379_ in lithium.mixins.json:entity.data_tracker.use_arrays.DataTrackerMixin from mod radium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[23Dec2024 18:42:40.022] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ArmorItem$Type
+[23Dec2024 18:42:40.023] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/EquipmentSlot$Type
+[23Dec2024 18:42:40.026] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/vehicle/Boat$Type
+[23Dec2024 18:42:40.028] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ArmorMaterials
+[23Dec2024 18:42:40.040] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/Tiers
+[23Dec2024 18:42:40.091] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundPlayerInfoUpdatePacket$Action
+[23Dec2024 18:42:40.159] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/Enchantment$Rarity
+[23Dec2024 18:42:40.160] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/ProtectionEnchantment$Type
+[23Dec2024 18:42:40.161] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/EnchantmentCategory
+[23Dec2024 18:42:40.195] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType
+[23Dec2024 18:42:40.197] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/Heightmap$Types
+[23Dec2024 18:42:40.200] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/Heightmap$Usage
+[23Dec2024 18:42:40.208] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/chunk/ChunkStatus$ChunkType
+[23Dec2024 18:42:40.252] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/crafting/CraftingBookCategory
+[23Dec2024 18:42:40.266] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/crafting/CookingBookCategory
+[23Dec2024 18:42:40.398] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Holder$Kind
+[23Dec2024 18:42:40.476] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/placement/CaveSurface
+[23Dec2024 18:42:40.521] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/placement/StructurePlacement$FrequencyReductionMethod
+[23Dec2024 18:42:40.527] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/placement/RandomSpreadType
+[23Dec2024 18:42:40.627] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/StructureSpawnOverride$BoundingBoxType
+[23Dec2024 18:42:40.634] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/GenerationStep$Decoration
+[23Dec2024 18:42:40.635] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/TerrainAdjustment
+[23Dec2024 18:42:40.657] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/MineshaftStructure$Type
+[23Dec2024 18:42:40.660] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/OceanRuinStructure$Type
+[23Dec2024 18:42:40.663] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/RuinedPortalPiece$VerticalPlacement
+[23Dec2024 18:42:40.680] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/GenerationStep$Carving
+[23Dec2024 18:42:40.722] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[23Dec2024 18:42:40.724] [main/WARN] [mixin/]: Method overwrite conflict for m_47505_ in lithium.mixins.json:world.temperature_cache.BiomeMixin from mod radium, previously written by org.embeddedt.modernfix.common.mixin.perf.remove_biome_temperature_cache.BiomeMixin. Skipping method.
+[23Dec2024 18:42:40.733] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/Biome$TemperatureModifier
+[23Dec2024 18:42:40.736] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/BiomeSpecialEffects$GrassColorModifier
+[23Dec2024 18:42:40.819] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Temperature
+[23Dec2024 18:42:40.820] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Steep
+[23Dec2024 18:42:40.821] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Hole
+[23Dec2024 18:42:40.821] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$AbovePreliminarySurface
+[23Dec2024 18:42:40.822] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Bandlands
+[23Dec2024 18:42:40.826] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BlendAlpha
+[23Dec2024 18:42:40.826] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BlendOffset
+[23Dec2024 18:42:40.827] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BeardifierMarker
+[23Dec2024 18:42:40.829] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$Marker$Type
+[23Dec2024 18:42:40.834] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$WeirdScaledSampler$RarityValueMapper
+[23Dec2024 18:42:40.847] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$Mapped$Type
+[23Dec2024 18:42:40.849] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$TwoArgumentSimpleFunction$Type
+[23Dec2024 18:42:40.865] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/pools/StructureTemplatePool$Projection
+[23Dec2024 18:42:40.873] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/CreativeModeTab$Row
+[23Dec2024 18:42:40.876] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/CreativeModeTab$Type
+[23Dec2024 18:42:41.201] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/commands/Commands$CommandSelection
+[23Dec2024 18:42:41.212] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting fuzs/puzzleslib/api/core/v1/ContentRegistrationFlags
+[23Dec2024 18:42:41.244] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for leavesbegone:main
+[23Dec2024 18:42:41.255] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting me/jellysquid/mods/sodium/client/gui/SodiumGameOptions$GraphicsQuality
+[23Dec2024 18:42:41.256] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/refinedmods/refinedstorage/apiimpl/storage/ItemStorageType
+[23Dec2024 18:42:41.258] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/refinedmods/refinedstorage/apiimpl/storage/FluidStorageType
+[23Dec2024 18:42:41.265] [modloading-worker-0/INFO] [io.wispforest.lmft.LMFTCommon/]: [LMFT]: Unable to find needed config file, will attempt to create such.
+[23Dec2024 18:42:41.278] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/packs/PackType
+[23Dec2024 18:42:41.301] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/client/CuriosClientConfig$Client$ButtonCorner
+[23Dec2024 18:42:41.305] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/refinedmods/refinedstorage/api/network/grid/GridType
+[23Dec2024 18:42:41.308] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/TickEvent$Phase
+[23Dec2024 18:42:41.309] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/TickEvent$Type
+[23Dec2024 18:42:41.310] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/common/CuriosConfig$KeepCurios
+[23Dec2024 18:42:41.319] [modloading-worker-0/INFO] [noisium/]: Loading Noisium.
+[23Dec2024 18:42:41.345] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/refinedmods/refinedstorage/item/ProcessorItem$Type
+[23Dec2024 18:42:41.345] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/refinedmods/refinedstorage/item/UpgradeItem$Type
+[23Dec2024 18:42:41.432] [modloading-worker-0/INFO] [pointblank/]: Loading mod pointblank
+[23Dec2024 18:42:41.440] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/vicmatskiv/pointblank/Config$AutoReload
+[23Dec2024 18:42:41.440] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/vicmatskiv/pointblank/Config$CrosshairType
+[23Dec2024 18:42:41.475] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/packs/repository/Pack$Position
+[23Dec2024 18:42:41.491] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/packs/repository/PackCompatibility
+[23Dec2024 18:42:41.510] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/DynamicTrees$SwampOakWaterState
+[23Dec2024 18:42:41.513] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/DynamicTrees$AxeDamage
+[23Dec2024 18:42:41.528] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/Level$ExplosionInteraction
+[23Dec2024 18:42:41.533] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/vicmatskiv/pointblank/client/effect/AbstractEffect$SpriteAnimationType
+[23Dec2024 18:42:41.536] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/vicmatskiv/pointblank/client/effect/Effect$BlendMode
+[23Dec2024 18:42:41.543] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/refinedmods/refinedstorage/api/storage/StorageType
+[23Dec2024 18:42:41.556] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Found 1 RS API injection point
+[23Dec2024 18:42:41.569] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Injected RS API in net.gigabit101.rebornstorage.RebornStorage RSAPI
+[23Dec2024 18:42:41.578] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/vicmatskiv/pointblank/util/TopDownAttackTrajectory$Phase
+[23Dec2024 18:42:41.627] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/jesz/createdieselgenerators/recipes/RecipeRegistry
+[23Dec2024 18:42:41.638] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/vicmatskiv/pointblank/item/GunItem$FirePhase
+[23Dec2024 18:42:41.642] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/compat/Mods
+[23Dec2024 18:42:41.648] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/vicmatskiv/pointblank/item/FireMode
+[23Dec2024 18:42:41.658] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/vicmatskiv/pointblank/util/TimeUnit
+[23Dec2024 18:42:41.661] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/block/leaves/LeavesProperties$AgeingConfiguration
+[23Dec2024 18:42:41.666] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/kiwi/Kiwi$LoadingStage
+[23Dec2024 18:42:41.688] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/vicmatskiv/pointblank/item/GunItem$ReloadPhase
+[23Dec2024 18:42:41.688] [modloading-worker-0/INFO] [snownee.kiwi.Kiwi/]: Kiwi Customization is enabled
+[23Dec2024 18:42:41.755] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ferreusveritas/dynamictrees/block/GrowableBlock$MatureAction
+[23Dec2024 18:42:41.797] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/kiwi/config/KiwiConfig$ConfigType
+[23Dec2024 18:42:41.874] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/kiwi/network/KiwiPacket$Direction
+[23Dec2024 18:42:41.887] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/vicmatskiv/pointblank/network/CraftingRequestPacket$RequestType
+[23Dec2024 18:42:41.889] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/vicmatskiv/pointblank/network/CraftingResponsePacket$CraftingResult
+[23Dec2024 18:42:41.892] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/vicmatskiv/pointblank/network/ServerBoundOpenScreenPacket$ScreenType
+[23Dec2024 18:42:41.937] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mutantmonsters:main
+[23Dec2024 18:42:41.963] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/common/world/BiomeModifier$Phase
+[23Dec2024 18:42:41.964] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting fuzs/puzzleslib/api/biome/v1/BiomeLoadingPhase
+[23Dec2024 18:42:42.011] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/common/capabilities/CapabilityManager
+[23Dec2024 18:42:42.018] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/GameRules$Category
+[23Dec2024 18:42:42.023] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MobSpawnType
+[23Dec2024 18:42:42.023] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting fuzs/puzzleslib/api/capability/v2/data/PlayerRespawnCopyStrategy
+[23Dec2024 18:42:42.058] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting fuzs/puzzleslib/api/network/v2/MessageDirection
+[23Dec2024 18:42:42.065] [modloading-worker-0/INFO] [snownee.kiwi.Kiwi/INIT]: Processing 6 KiwiModule annotations
+[23Dec2024 18:42:42.072] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tile/interfaces/IFluidContainerManager$ContainerEditMode
+[23Dec2024 18:42:42.077] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/kiwi/shadowed/org/yaml/snakeyaml/DumperOptions$ScalarStyle
+[23Dec2024 18:42:42.077] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/kiwi/shadowed/org/yaml/snakeyaml/DumperOptions$FlowStyle
+[23Dec2024 18:42:42.078] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/kiwi/shadowed/org/yaml/snakeyaml/DumperOptions$LineBreak
+[23Dec2024 18:42:42.079] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/kiwi/shadowed/org/yaml/snakeyaml/DumperOptions$NonPrintableStyle
+[23Dec2024 18:42:42.082] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/lib/math/voxel/VoxelCuboid$CuboidSide
+[23Dec2024 18:42:42.093] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/kiwi/shadowed/org/yaml/snakeyaml/nodes/NodeId
+[23Dec2024 18:42:42.099] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting fuzs/puzzleslib/api/event/v1/core/EventResult
+[23Dec2024 18:42:42.101] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/inventory/container/QIOItemViewerContainer$ListSortType
+[23Dec2024 18:42:42.104] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/inventory/container/QIOItemViewerContainer$SortDirection
+[23Dec2024 18:42:42.107] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/inventory/container/SelectedWindowData$WindowType
+[23Dec2024 18:42:42.111] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/kiwi/shadowed/org/yaml/snakeyaml/introspector/BeanAccess
+[23Dec2024 18:42:42.112] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/MekanismLang
+[23Dec2024 18:42:42.124] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/moonlight/api/platform/configs/ConfigType
+[23Dec2024 18:42:42.152] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/vehicles/EPlayerInput
+[23Dec2024 18:42:42.153] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/attachments/EAttachmentType
+[23Dec2024 18:42:42.154] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/guns/elements/ERepeatMode
+[23Dec2024 18:42:42.155] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/guns/elements/EActionType
+[23Dec2024 18:42:42.156] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/moonlight/api/platform/PlatHelper$Platform
+[23Dec2024 18:42:42.159] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/util/MekanismUtils$ResourceType
+[23Dec2024 18:42:42.161] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/util/formulae/EAccumulationOperation
+[23Dec2024 18:42:42.163] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/abilities/elements/EAccumulationSource
+[23Dec2024 18:42:42.166] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/abilities/elements/EAbilityTrigger
+[23Dec2024 18:42:42.167] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/kiwi/shadowed/org/yaml/snakeyaml/comments/CommentType
+[23Dec2024 18:42:42.168] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/abilities/elements/ETriggerConditionType
+[23Dec2024 18:42:42.169] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/util/UnitDisplayUtils$EnergyUnit
+[23Dec2024 18:42:42.170] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/BOLUDOSSAFIO/servidor_minecraft/config/immersive_weathering-common.toml is not correct. Correcting
+[23Dec2024 18:42:42.170] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/abilities/elements/EAbilityTarget
+[23Dec2024 18:42:42.171] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/abilities/elements/EAbilityEffect
+[23Dec2024 18:42:42.171] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/util/UnitDisplayUtils$TemperatureUnit
+[23Dec2024 18:42:42.173] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:42.173] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.block_growths was corrected from null to its default, true. 
+[23Dec2024 18:42:42.173] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.block_growth_blacklist was corrected from null to its default, []. 
+[23Dec2024 18:42:42.173] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.creative_tab was corrected from null to its default, false. 
+[23Dec2024 18:42:42.174] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.drop_in_creative was corrected from null to its default, false. 
+[23Dec2024 18:42:42.175] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.debug_save_dynamic_pack was corrected from null to its default, false. 
+[23Dec2024 18:42:42.175] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mossy_blocks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:42.174] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/kiwi/shadowed/org/yaml/snakeyaml/events/Event$ID
+[23Dec2024 18:42:42.175] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mossy_blocks.interest_for_face was corrected from null to its default, 0.3. 
+[23Dec2024 18:42:42.178] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mossy_blocks.patchiness was corrected from null to its default, 0.5. 
+[23Dec2024 18:42:42.178] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mossy_blocks.immune_chance was corrected from null to its default, 0.4. 
+[23Dec2024 18:42:42.178] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mossy_blocks.needs_air was corrected from null to its default, true. 
+[23Dec2024 18:42:42.178] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mossy_blocks.enabled was corrected from null to its default, true. 
+[23Dec2024 18:42:42.179] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cracked_blocks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:42.179] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cracked_blocks.cracking_drops_brick was corrected from null to its default, false. 
+[23Dec2024 18:42:42.179] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cracked_blocks.interest_for_face was corrected from null to its default, 0.6. 
+[23Dec2024 18:42:42.179] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cracked_blocks.patchiness was corrected from null to its default, 0.4. 
+[23Dec2024 18:42:42.181] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cracked_blocks.immune_chance was corrected from null to its default, 0.4. 
+[23Dec2024 18:42:42.181] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cracked_blocks.needs_air was corrected from null to its default, false. 
+[23Dec2024 18:42:42.181] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cracked_blocks.enabled was corrected from null to its default, true. 
+[23Dec2024 18:42:42.181] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/attachments/EMechaEffect
+[23Dec2024 18:42:42.182] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key icicle was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:42.182] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key icicle.react_to_vibrations was corrected from null to its default, true. 
+[23Dec2024 18:42:42.182] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key icicle.spawn_rarity was corrected from null to its default, 12. 
+[23Dec2024 18:42:42.183] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key icicle.disable_icicles was corrected from null to its default, false. 
+[23Dec2024 18:42:42.183] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key freezing was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:42.183] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key freezing.icicle was corrected from null to its default, 300. 
+[23Dec2024 18:42:42.184] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key charring was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:42.184] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key charring.fire_chars_wood was corrected from null to its default, 0.3. 
+[23Dec2024 18:42:42.184] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key charring.soot_spawn was corrected from null to its default, true. 
+[23Dec2024 18:42:42.184] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key charring.flammable_cobweb was corrected from null to its default, true. 
+[23Dec2024 18:42:42.185] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:42.185] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.pickaxe_cracking was corrected from null to its default, true. 
+[23Dec2024 18:42:42.185] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.pickaxe_cracking_shift was corrected from null to its default, false. 
+[23Dec2024 18:42:42.185] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.brick_breaking was corrected from null to its default, true. 
+[23Dec2024 18:42:42.185] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.azalea_shearing was corrected from null to its default, true. 
+[23Dec2024 18:42:42.185] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.moss_shearing was corrected from null to its default, true. 
+[23Dec2024 18:42:42.185] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.moss_burning was corrected from null to its default, true. 
+[23Dec2024 18:42:42.186] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.shovel_extinguish was corrected from null to its default, true. 
+[23Dec2024 18:42:42.186] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.sponge_rusting was corrected from null to its default, true. 
+[23Dec2024 18:42:42.186] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.sponge_rust_drying was corrected from null to its default, false. 
+[23Dec2024 18:42:42.186] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.axe_stripping was corrected from null to its default, true. 
+[23Dec2024 18:42:42.186] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key item_interaction.axe_rusting was corrected from null to its default, true. 
+[23Dec2024 18:42:42.187] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key food was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:42.187] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key food.icicle_food was corrected from null to its default, true. 
+[23Dec2024 18:42:42.187] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key food.icicle_fire_resistance was corrected from null to its default, true. 
+[23Dec2024 18:42:42.188] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:42.188] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.composter_dirt was corrected from null to its default, true. 
+[23Dec2024 18:42:42.188] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.grass_over_mycelium was corrected from null to its default, true. 
+[23Dec2024 18:42:42.188] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.mycelium_over_grass was corrected from null to its default, true. 
+[23Dec2024 18:42:42.188] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.generic_bark was corrected from null to its default, . 
+[23Dec2024 18:42:42.188] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.leggings_prevents_thorn_damage was corrected from null to its default, true. 
+[23Dec2024 18:42:42.189] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key leaf_piles was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:42.189] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key leaf_piles.leaf_piles_slow was corrected from null to its default, true. 
+[23Dec2024 18:42:42.189] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key leaf_piles.spawn_entity_from_decay was corrected from null to its default, 0.3. 
+[23Dec2024 18:42:42.190] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key leaf_piles.reach was corrected from null to its default, 12. 
+[23Dec2024 18:42:42.190] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key leaf_piles.max_pile_height was corrected from null to its default, 3. 
+[23Dec2024 18:42:42.191] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key leaf_piles.leaf_piles_blacklist was corrected from null to its default, []. 
+[23Dec2024 18:42:42.193] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key thin_ice was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:42.194] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key thin_ice.natural_melting was corrected from null to its default, false. 
+[23Dec2024 18:42:42.194] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/parts/elements/EFuelType
+[23Dec2024 18:42:42.196] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lightning_growths was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:42.196] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lightning_growths.vitrified_lightning was corrected from null to its default, true. 
+[23Dec2024 18:42:42.196] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lightning_growths.fulgurite_chance was corrected from null to its default, 0.4. 
+[23Dec2024 18:42:42.199] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rusting was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:42.199] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/EnergyCubeTier
+[23Dec2024 18:42:42.201] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rusting.rusting was corrected from null to its default, true. 
+[23Dec2024 18:42:42.201] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/api/tier/BaseTier
+[23Dec2024 18:42:42.201] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rusting.rusting_influence_radius was corrected from null to its default, 4. 
+[23Dec2024 18:42:42.203] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/elements/EFilterType
+[23Dec2024 18:42:42.203] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rusting.rusting_rate was corrected from null to its default, 0.06. 
+[23Dec2024 18:42:42.204] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/FluidTankTier
+[23Dec2024 18:42:42.204] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rusting.rust_streaking was corrected from null to its default, true. 
+[23Dec2024 18:42:42.205] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/ChemicalTankTier
+[23Dec2024 18:42:42.204] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/crafting/EMaterialType
+[23Dec2024 18:42:42.207] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/crafting/EWorkbenchInventoryType
+[23Dec2024 18:42:42.210] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/moonlight/api/platform/PlatHelper$Side
+[23Dec2024 18:42:42.210] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/crafting/EMaterialIconType
+[23Dec2024 18:42:42.219] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/magazines/EAmmoLoadMode
+[23Dec2024 18:42:42.219] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/magazines/EAmmoConsumeMode
+[23Dec2024 18:42:42.221] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/api/RelativeSide
+[23Dec2024 18:42:42.224] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/api/text/APILang
+[23Dec2024 18:42:42.226] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/util/UnitDisplayUtils$MeasurementUnit
+[23Dec2024 18:42:42.227] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/npc/elements/ENpcActionType
+[23Dec2024 18:42:42.227] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/util/UnitDisplayUtils$FloatingLongMeasurementUnit
+[23Dec2024 18:42:42.227] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/elements/EDamageSourceType
+[23Dec2024 18:42:42.228] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/lib/transmitter/TransmissionType
+[23Dec2024 18:42:42.228] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/npc/elements/EVoiceLineType
+[23Dec2024 18:42:42.231] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/types/armour/EArmourType
+[23Dec2024 18:42:42.232] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/CableTier
+[23Dec2024 18:42:42.232] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/actions/contexts/EContextSide
+[23Dec2024 18:42:42.232] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/TransporterTier
+[23Dec2024 18:42:42.233] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/ConductorTier
+[23Dec2024 18:42:42.235] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/TubeTier
+[23Dec2024 18:42:42.236] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/PipeTier
+[23Dec2024 18:42:42.237] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/BinTier
+[23Dec2024 18:42:42.238] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/InductionCellTier
+[23Dec2024 18:42:42.239] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/InductionProviderTier
+[23Dec2024 18:42:42.239] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/FactoryTier
+[23Dec2024 18:42:42.240] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/blocktype/FactoryType
+[23Dec2024 18:42:42.250] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/api/Upgrade
+[23Dec2024 18:42:42.251] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/api/text/EnumColor
+[23Dec2024 18:42:42.253] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tile/base/SubstanceType
+[23Dec2024 18:42:42.256] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/pathfinder/BlockPathTypes
+[23Dec2024 18:42:42.260] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/moonlight/api/platform/RegHelper$VariantType
+[23Dec2024 18:42:42.269] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/resource/ore/OreType
+[23Dec2024 18:42:42.270] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/resource/PrimaryResource
+[23Dec2024 18:42:42.272] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/resource/BlockResourceInfo
+[23Dec2024 18:42:42.274] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/world/height/HeightShape
+[23Dec2024 18:42:42.275] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/world/height/AnchorType
+[23Dec2024 18:42:42.278] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/resource/MiscResource
+[23Dec2024 18:42:42.280] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/resource/ResourceType
+[23Dec2024 18:42:42.282] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/api/chemical/ChemicalType
+[23Dec2024 18:42:42.281] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/moonlight/api/platform/network/NetworkDir
+[23Dec2024 18:42:42.291] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/pttheta/loveandwar/recipe/RecipeRegister
+[23Dec2024 18:42:42.324] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting sereneseasons/api/season/Season$SubSeason
+[23Dec2024 18:42:42.326] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting sereneseasons/api/season/Season
+[23Dec2024 18:42:42.349] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/item/ItemConfigurator$ConfiguratorMode
+[23Dec2024 18:42:42.374] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tier/QIODriveTier
+[23Dec2024 18:42:42.377] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/item/gear/ItemAtomicDisassembler$DisassemblerMode
+[23Dec2024 18:42:42.391] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/architectury/utils/Env
+[23Dec2024 18:42:42.406] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[23Dec2024 18:42:42.406] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[23Dec2024 18:42:42.420] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ItemDisplayContext
+[23Dec2024 18:42:42.426] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/gear/mekatool/ModuleExcavationEscalationUnit$ExcavationMode
+[23Dec2024 18:42:42.428] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/gear/mekatool/ModuleAttackAmplificationUnit$AttackDamage
+[23Dec2024 18:42:42.432] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/gear/mekatool/ModuleFarmingUnit$FarmingRadius
+[23Dec2024 18:42:42.434] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/api/gear/ModuleData$ExclusiveFlag
+[23Dec2024 18:42:42.443] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/gear/mekatool/ModuleBlastingUnit$BlastRadius
+[23Dec2024 18:42:42.445] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/gear/mekatool/ModuleVeinMiningUnit$ExcavationRange
+[23Dec2024 18:42:42.451] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ordana/immersive_weathering/data/block_growths/TickSource
+[23Dec2024 18:42:42.453] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/item/interfaces/IJetpackItem$JetpackMode
+[23Dec2024 18:42:42.454] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/BOLUDOSSAFIO/servidor_minecraft/config/logbegone.toml is not correct. Correcting
+[23Dec2024 18:42:42.455] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logbegone was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:42.456] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logbegone.phrases was corrected from null to its default, [Disconnecting VANILLA connection attempt, Channels ]. 
+[23Dec2024 18:42:42.457] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logbegone.regex was corrected from null to its default, [Disconnecting VANILLA connection attempt, Channels ]. 
+[23Dec2024 18:42:42.457] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/gear/mekasuit/ModuleLocomotiveBoostingUnit$SprintBoost
+[23Dec2024 18:42:42.465] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/gear/mekasuit/ModuleHydraulicPropulsionUnit$JumpBoost
+[23Dec2024 18:42:42.469] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/gear/mekasuit/ModuleHydraulicPropulsionUnit$StepAssist
+[23Dec2024 18:42:42.470] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/gear/mekasuit/ModuleMagneticAttractionUnit$Range
+[23Dec2024 18:42:42.477] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/api/tier/AlloyTier
+[23Dec2024 18:42:42.509] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/block/attribute/AttributeStateFacing$FacePlacementType
+[23Dec2024 18:42:42.529] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mojang/math/OctahedralGroup
+[23Dec2024 18:42:42.535] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mojang/math/SymmetricGroup3
+[23Dec2024 18:42:42.741] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/AllTags$AllBlockTags
+[23Dec2024 18:42:42.742] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/AllTags$NameSpace
+[23Dec2024 18:42:43.275] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/AllTags$AllItemTags
+[23Dec2024 18:42:43.347] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tile/interfaces/IRedstoneControl$RedstoneControl
+[23Dec2024 18:42:43.374] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/block/attribute/AttributeMultiblock$MultiblockType
+[23Dec2024 18:42:43.377] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/block/attribute/AttributeStateBoilerValveMode$BoilerValveMode
+[23Dec2024 18:42:43.386] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/kinetics/deployer/DeployerBlockEntity$Mode
+[23Dec2024 18:42:43.453] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mindfuldarkness:main
+[23Dec2024 18:42:43.456] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/player/PlayerInteractEvent$LeftClickBlock$Action
+[23Dec2024 18:42:43.480] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tile/component/config/DataType
+[23Dec2024 18:42:43.496] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/trains/signal/SignalBlock$SignalType
+[23Dec2024 18:42:43.497] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/trains/signal/SignalBlockEntity$SignalState
+[23Dec2024 18:42:43.506] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/ChemicalConstants
+[23Dec2024 18:42:43.652] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/foundation/data/recipe/CompatMetals
+[23Dec2024 18:42:43.653] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/foundation/data/recipe/Mods
+[23Dec2024 18:42:43.683] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/item/gear/ItemFlamethrower$FlamethrowerMode
+[23Dec2024 18:42:43.692] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/api/security/SecurityMode
+[23Dec2024 18:42:43.762] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/equipment/zapper/PlacementPatterns
+[23Dec2024 18:42:43.764] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/equipment/zapper/terrainzapper/TerrainBrushes
+[23Dec2024 18:42:43.764] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/equipment/zapper/terrainzapper/TerrainTools
+[23Dec2024 18:42:43.765] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/equipment/zapper/terrainzapper/PlacementOptions
+[23Dec2024 18:42:43.771] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting de/maxhenkel/pipez/Upgrade
+[23Dec2024 18:42:43.785] [modloading-worker-0/INFO] [net.liopyu.entityjs.EntityJSMod/]: Loading EntityJS-Liopyu
+[23Dec2024 18:42:43.787] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/latvian/mods/kubejs/script/ScriptType
+[23Dec2024 18:42:43.807] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/content/miner/ThreadMinerSearch$State
+[23Dec2024 18:42:43.815] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/foundation/block/connected/AllCTTypes
+[23Dec2024 18:42:43.820] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
+[23Dec2024 18:42:43.821] [modloading-worker-0/INFO] [KubeJS/]: Loaded dev.properties
+[23Dec2024 18:42:43.826] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tile/TileEntityChemicalTank$GasMode
+[23Dec2024 18:42:43.836] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[23Dec2024 18:42:43.841] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/jozufozu/flywheel/config/BackendType
+[23Dec2024 18:42:43.851] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/tile/laser/TileEntityLaserAmplifier$RedstoneOutput
+[23Dec2024 18:42:43.924] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: modernui, class icyllis.modernui.mc.forge.ModernUIForge
+java.lang.NoClassDefFoundError: org/lwjgl/glfw/GLFWErrorCallbackI
+	at icyllis.modernui.mc.forge.ModernUIForge.<init>(ModernUIForge.java:116) ~[ModernUI-Forge-1.20.1-3.11.0.1-universal.jar%23415!/:1.20.1-3.11.0.1]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23475!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23474!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: org.lwjgl.glfw.GLFWErrorCallbackI
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 13 more
+[23Dec2024 18:42:43.964] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[23Dec2024 18:42:44.019] [modloading-worker-0/WARN] [dev.xylonity.explosiveenhancement.ExplosiveEnhancement/]: Explosive Enhancement: Reforged won't be loaded as it should be initialized on the client side.
+[23Dec2024 18:42:44.039] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/cristellib/config/ConfigType
+[23Dec2024 18:42:44.048] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting snownee/kiwi/KiwiModule$RenderLayer$Layer
+[23Dec2024 18:42:44.074] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/teacon/xkdeco/block/SpecialSlabBlock$Type
+[23Dec2024 18:42:44.109] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/common/entity/RobitPrideSkinData
+[23Dec2024 18:42:44.147] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/flansmod/common/actions/EActionResult
+[23Dec2024 18:42:44.155] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedcore/client/gui/SortButtonsPosition
+[23Dec2024 18:42:44.231] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/sounds/SoundSource
+[23Dec2024 18:42:44.242] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[23Dec2024 18:42:44.263] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/GameType
+[23Dec2024 18:42:44.311] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/darkhax/bookshelf/api/PhysicalSide
+[23Dec2024 18:42:44.313] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[23Dec2024 18:42:44.313] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[23Dec2024 18:42:44.313] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[23Dec2024 18:42:44.313] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[23Dec2024 18:42:44.313] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[23Dec2024 18:42:44.313] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[23Dec2024 18:42:44.313] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[23Dec2024 18:42:44.314] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/darkhax/bookshelf/api/event/IEventHelper$Ordering
+[23Dec2024 18:42:44.319] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ithundxr/createnumismatics/registry/NumismaticsCreativeModeTabs$Tabs
+[23Dec2024 18:42:44.320] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ithundxr/createnumismatics/multiloader/Loader
+[23Dec2024 18:42:44.321] [modloading-worker-0/INFO] [Create: Numismatics/]: Create: Numismatics 1.0.6+forge-mc1.20.1 initializing! Create version: 0.5.1f on platform: FORGE
+[23Dec2024 18:42:44.322] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ithundxr/createnumismatics/content/backend/Coin
+[23Dec2024 18:42:44.330] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ithundxr/createnumismatics/registry/NumismaticsTags$AllItemTags
+[23Dec2024 18:42:44.331] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ithundxr/createnumismatics/registry/NumismaticsTags$NameSpace
+[23Dec2024 18:42:44.332] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/geforcemods/securitycraft/util/SCItemGroup
+[23Dec2024 18:42:44.347] [modloading-worker-0/INFO] [Create: Numismatics/]: Registering items for Create: Numismatics
+[23Dec2024 18:42:44.367] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedcore/upgrades/feeding/HungerLevel
+[23Dec2024 18:42:44.367] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/api/AutomationType
+[23Dec2024 18:42:44.384] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedbackpacks/upgrades/refill/RefillUpgradeWrapper$TargetSlot
+[23Dec2024 18:42:44.397] [modloading-worker-0/INFO] [Create: Numismatics/]: Registering blocks for Create: Numismatics
+[23Dec2024 18:42:44.400] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedbackpacks/upgrades/inception/InventoryOrder
+[23Dec2024 18:42:44.405] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedbackpacks/upgrades/toolswapper/ToolSwapMode
+[23Dec2024 18:42:44.410] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/generators/common/GeneratorsChemicalConstants
+[23Dec2024 18:42:44.412] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/generators/common/GeneratorsLang
+[23Dec2024 18:42:44.413] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedcore/upgrades/xppump/AutomationDirection
+[23Dec2024 18:42:44.414] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ithundxr/createnumismatics/registry/NumismaticsTags$AllBlockTags
+[23Dec2024 18:42:44.461] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ithundxr/createnumismatics/content/vendor/VendorBlockEntity$Mode
+[23Dec2024 18:42:44.468] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ithundxr/createnumismatics/multiloader/Env
+[23Dec2024 18:42:44.483] [modloading-worker-0/INFO] [de.keksuccino.melody.Melody/]: [MELODY] Disabling Melody since it's loaded server-side.
+[23Dec2024 18:42:44.492] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/unlikepaladin/pfm/config/option/Side
+[23Dec2024 18:42:44.507] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[23Dec2024 18:42:44.507] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/generators/common/tile/fission/TileEntityFissionReactorLogicAdapter$FissionReactorLogic
+[23Dec2024 18:42:44.507] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[23Dec2024 18:42:44.508] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/inventory/RecipeBookType
+[23Dec2024 18:42:44.508] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/generators/common/tile/fission/TileEntityFissionReactorLogicAdapter$RedstoneStatus
+[23Dec2024 18:42:44.525] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/generators/common/tile/fusion/TileEntityFusionReactorLogicAdapter$FusionReactorLogic
+[23Dec2024 18:42:44.584] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/BOLUDOSSAFIO/servidor_minecraft/config/rebornstorage-common.toml is not correct. Correcting
+[23Dec2024 18:42:44.586] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:44.587] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.multiblock_crafter_frame_cost was corrected from null to its default, 0. 
+[23Dec2024 18:42:44.587] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.multiblock_crafter_heat_cost was corrected from null to its default, 0. 
+[23Dec2024 18:42:44.587] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.multiblock_crafter_cpu_cost was corrected from null to its default, 5. 
+[23Dec2024 18:42:44.587] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.multiblock_crafter_storage_cost was corrected from null to its default, 10. 
+[23Dec2024 18:42:44.591] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key multiblock was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:44.591] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key multiblock.multiblock_crafter_max_x was corrected from null to its default, 16. 
+[23Dec2024 18:42:44.592] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key multiblock.multiblock_crafter_max_y was corrected from null to its default, 16. 
+[23Dec2024 18:42:44.592] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key multiblock.multiblock_crafter_max_z was corrected from null to its default, 16. 
+[23Dec2024 18:42:44.592] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key multiblock.multiblock_crafter_min_x was corrected from null to its default, 3. 
+[23Dec2024 18:42:44.592] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key multiblock.multiblock_crafter_min_y was corrected from null to its default, 3. 
+[23Dec2024 18:42:44.593] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key multiblock.multiblock_crafter_min_z was corrected from null to its default, 3. 
+[23Dec2024 18:42:44.593] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key multiblock.advanced_wireless_transmitter_range was corrected from null to its default, 1000. 
+[23Dec2024 18:42:44.593] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key multiblock.advanced_wireless_transmitter_cost was corrected from null to its default, 100. 
+[23Dec2024 18:42:44.593] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key multiblock.advanced_wireless_transmitter_range_booster_range was corrected from null to its default, 500. 
+[23Dec2024 18:42:44.613] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/additions/common/entity/baby/BabyType
+[23Dec2024 18:42:44.728] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/additions/common/AdditionsLang
+[23Dec2024 18:42:44.791] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.84.
+[23Dec2024 18:42:44.929] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/architectury/networking/NetworkManager$Side
+[23Dec2024 18:42:44.937] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting mekanism/tools/common/ToolsLang
+[23Dec2024 18:42:44.949] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[23Dec2024 18:42:44.954] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[23Dec2024 18:42:44.963] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ftb/mods/ftbteams/FTBTeamsAPIImpl
+[23Dec2024 18:42:44.965] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ftb/mods/ftbquests/FTBQuestsAPIImpl
+[23Dec2024 18:42:44.988] [modloading-worker-0/WARN] [com.cupboard.Cupboard/]: Config cupboard.json not found, recreating default
+[23Dec2024 18:42:44.989] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[23Dec2024 18:42:44.991] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[23Dec2024 18:42:45.000] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[23Dec2024 18:42:45.041] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[23Dec2024 18:42:45.049] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[23Dec2024 18:42:45.060] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ftb/mods/ftbteams/net/PlayerGUIOperationMessage$Operation
+[23Dec2024 18:42:45.060] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[23Dec2024 18:42:45.071] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ftb/mods/ftbquests/integration/RecipeModHelper$Components
+[23Dec2024 18:42:45.145] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ftb/mods/ftbquests/quest/task/ObservationTask$ObserveType
+[23Dec2024 18:42:45.180] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[23Dec2024 18:42:45.184] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[23Dec2024 18:42:45.198] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin does not load on server side, skipping
+[23Dec2024 18:42:45.198] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[23Dec2024 18:42:45.198] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source ftbxmodcompat
+[23Dec2024 18:42:45.210] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin does not have required mod ftbchunks loaded, skipping
+[23Dec2024 18:42:45.211] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin does not have required mod ftbfiltersystem loaded, skipping
+[23Dec2024 18:42:45.212] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source entityjs
+[23Dec2024 18:42:45.216] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source lootjs
+[23Dec2024 18:42:45.211] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:submit_task
+[23Dec2024 18:42:45.219] [modloading-worker-0/INFO] [KubeJS/]: Done in 37.92 ms
+[23Dec2024 18:42:45.221] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_reward
+[23Dec2024 18:42:45.222] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:get_emergency_items
+[23Dec2024 18:42:45.223] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_all_rewards
+[23Dec2024 18:42:45.224] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_choice_reward
+[23Dec2024 18:42:45.231] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_pinned
+[23Dec2024 18:42:45.238] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_chapter_pinned
+[23Dec2024 18:42:45.239] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_editing_mode
+[23Dec2024 18:42:45.241] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:force_save
+[23Dec2024 18:42:45.252] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:set_custom_image
+[23Dec2024 18:42:45.256] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:task_screen_config_resp
+[23Dec2024 18:42:45.257] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_progress
+[23Dec2024 18:42:45.258] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_object
+[23Dec2024 18:42:45.259] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_task_at
+[23Dec2024 18:42:45.259] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:delete_object
+[23Dec2024 18:42:45.260] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:edit_object
+[23Dec2024 18:42:45.261] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter
+[23Dec2024 18:42:45.262] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_quest
+[23Dec2024 18:42:45.272] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_chapter_group
+[23Dec2024 18:42:45.273] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter_group
+[23Dec2024 18:42:45.275] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_quest
+[23Dec2024 18:42:45.277] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_chapter_image
+[23Dec2024 18:42:45.282] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:sync_structures_request
+[23Dec2024 18:42:45.283] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:request_team_data
+[23Dec2024 18:42:45.285] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ftb/mods/ftbquests/FTBQuestsEventHandler
+[23Dec2024 18:42:45.353] [modloading-worker-0/INFO] [FTB XMod Compat/]: [FTB Quests] Enabled KubeJS integration
+[23Dec2024 18:42:45.364] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ftb/mods/ftblibrary/config/Tristate
+[23Dec2024 18:42:45.398] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ftb/mods/ftbxmodcompat/config/FTBXModConfig$StageSelector
+[23Dec2024 18:42:45.400] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/ftb/mods/ftbxmodcompat/config/FTBXModConfig$PermSelector
+[23Dec2024 18:42:45.420] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/eruannie_9/nomoportals/util/TeleportRestrictionMode
+[23Dec2024 18:42:45.437] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/tacz/guns/client/renderer/crosshair/CrosshairType
+[23Dec2024 18:42:45.505] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/latvian/mods/kubejs/util/LogType
+[23Dec2024 18:42:45.513] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
+[23Dec2024 18:42:45.514] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/latvian/mods/rhino/mod/util/RhinoProperties
+[23Dec2024 18:42:45.516] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
+[23Dec2024 18:42:45.518] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.20.1
+[23Dec2024 18:42:45.609] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/framework/api/config/ConfigType
+[23Dec2024 18:42:45.610] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/framework/api/Environment
+[23Dec2024 18:42:45.657] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/framework/platform/services/IPlatformHelper$Platform
+[23Dec2024 18:42:45.681] [modloading-worker-0/INFO] [ping-wheel/]: [Ping-Wheel] Init
+[23Dec2024 18:42:45.686] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting nx/pingwheel/common/helper/ChannelMode
+[23Dec2024 18:42:45.695] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.182 s
+[23Dec2024 18:42:45.699] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting pepjebs/mapatlases/utils/ActivationLocation
+[23Dec2024 18:42:45.701] [modloading-worker-0/INFO] [ping-wheel/]: [Ping-Wheel] Saved ServerConfig(defaultChannelMode=auto, msToRegenerate=1000, rateLimit=5)
+[23Dec2024 18:42:45.710] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/AllTags$AllFluidTags
+[23Dec2024 18:42:45.711] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/AllTags$AllEntityTags
+[23Dec2024 18:42:45.712] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/AllTags$AllRecipeSerializerTags
+[23Dec2024 18:42:45.714] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/latvian/mods/rhino/TopLevel$Builtins
+[23Dec2024 18:42:45.715] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/latvian/mods/rhino/TopLevel$NativeErrors
+[23Dec2024 18:42:45.717] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/latvian/mods/rhino/ScriptableObject$SlotAccess
+[23Dec2024 18:42:45.721] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting pepjebs/mapatlases/config/MapAtlasesConfig$UpdateType
+[23Dec2024 18:42:45.723] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/latvian/mods/rhino/MemberType
+[23Dec2024 18:42:45.747] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/latvian/mods/rhino/ES6Generator$State
+[23Dec2024 18:42:45.759] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/latvian/mods/rhino/NativeCollectionIterator$Type
+[23Dec2024 18:42:45.779] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/decoration/palettes/AllPaletteStoneTypes
+[23Dec2024 18:42:45.786] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/decoration/palettes/PaletteBlockPattern$PatternNameType
+[23Dec2024 18:42:45.875] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/storage/loot/LootContext$EntityTarget
+[23Dec2024 18:42:45.881] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/storage/loot/functions/CopyNameFunction$NameSource
+[23Dec2024 18:42:45.918] [ForkJoinPool.commonPool-worker-1/INFO] [com.unlikepaladin.pfm.PaladinFurnitureMod/]: [Paladin's Furniture Update Check] Is up to date!
+[23Dec2024 18:42:45.956] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/mojang/blaze3d/vertex/PoseStack for invalid dist DEDICATED_SERVER
+[23Dec2024 18:42:46.008] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/kinetics/clock/CuckooClockBlockEntity$Animation
+[23Dec2024 18:42:46.029] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ichttt/mods/firstaid/FirstAidConfig$Server$VanillaHealthCalculationMode
+[23Dec2024 18:42:46.029] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ichttt/mods/firstaid/FirstAidConfig$Server$ArmorEnchantmentMode
+[23Dec2024 18:42:46.032] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ichttt/mods/firstaid/FirstAidConfig$Client$VanillaHealthbarMode
+[23Dec2024 18:42:46.033] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ichttt/mods/firstaid/FirstAidConfig$Client$OverlayMode
+[23Dec2024 18:42:46.033] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ichttt/mods/firstaid/FirstAidConfig$Client$Position
+[23Dec2024 18:42:46.034] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ichttt/mods/firstaid/FirstAidConfig$Client$TooltipMode
+[23Dec2024 18:42:46.049] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/kinetics/belt/BeltBlockEntity$CasingType
+[23Dec2024 18:42:46.057] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/latvian/mods/kubejs/util/RotationAxis
+[23Dec2024 18:42:46.065] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/kinetics/mechanicalArm/ArmBlockEntity$Phase
+[23Dec2024 18:42:46.084] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/saveddata/maps/MapDecoration$Type
+[23Dec2024 18:42:46.085] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/almostreliable/lootjs/core/LootContextType
+[23Dec2024 18:42:46.093] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/inventory/ClickAction
+[23Dec2024 18:42:46.093] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/UseAnim
+[23Dec2024 18:42:46.094] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/ClipContext$Fluid
+[23Dec2024 18:42:46.118] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/kinetics/deployer/DeployerBlockEntity$State
+[23Dec2024 18:42:46.157] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/latvian/mods/kubejs/util/JSObjectType
+[23Dec2024 18:42:46.159] [modloading-worker-0/INFO] [KubeJS Startup/]: example.js#5: Hello, World! (Loaded startup scripts)
+[23Dec2024 18:42:46.162] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:example.js in 0.054 s
+[23Dec2024 18:42:46.166] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 1/1 KubeJS startup scripts in 0.467 s with 0 errors and 0 warnings
+[23Dec2024 18:42:46.167] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/latvian/mods/kubejs/event/EventResult$Type
+[23Dec2024 18:42:46.172] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/logistics/depot/EjectorBlockEntity$State
+[23Dec2024 18:42:46.203] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/trains/signal/SignalBlockEntity$OverlayState
+[23Dec2024 18:42:46.211] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/AllRecipeTypes
+[23Dec2024 18:42:46.220] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
+[23Dec2024 18:42:46.226] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:first_click
+[23Dec2024 18:42:46.242] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/AllParticleTypes
+[23Dec2024 18:42:46.258] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/AllPackets
+[23Dec2024 18:42:46.261] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/schematics/cannon/ConfigureSchematicannonPacket$Option
+[23Dec2024 18:42:46.340] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/mehvahdjukaar/moonlight/api/util/DispenserHelper$Priority
+[23Dec2024 18:42:46.343] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/infrastructure/config/CClient$PlacementIndicatorSetting
+[23Dec2024 18:42:46.345] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/foundation/config/ui/ConfigAnnotations$IntDisplay
+[23Dec2024 18:42:46.358] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/eruannie_9/extragore/util/BloodParticleVariant
+[23Dec2024 18:42:46.362] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/infrastructure/config/CKinetics$DeployerAggroSetting
+[23Dec2024 18:42:46.362] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/contraptions/ContraptionMovementSetting
+[23Dec2024 18:42:46.366] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/fluids/transfer/FluidManipulationBehaviour$BottomlessFluidMode
+[23Dec2024 18:42:46.370] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/x3r/mekanism_turrets/common/block_entity/LaserTurretTier
+[23Dec2024 18:42:46.372] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/github/x3r/mekanism_turrets/common/lang/MekanismTurretsLang
+[23Dec2024 18:42:46.474] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/processing/recipe/HeatCondition
+[23Dec2024 18:42:46.479] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/larsmans/infinitybuttons/config/AlarmEnum
+[23Dec2024 18:42:46.502] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[23Dec2024 18:42:46.502] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: cavedust, class net.lizistired.cavedust.forge.CaveDustForge
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3549) ~[?:?]
+	at java.lang.Class.getConstructor0(Class.java:3754) ~[?:?]
+	at java.lang.Class.getDeclaredConstructor(Class.java:2930) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23475!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23474!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[23Dec2024 18:42:46.505] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[23Dec2024 18:42:46.505] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: sounds, class dev.imb11.sounds.loaders.forge.SoundsForge
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3549) ~[?:?]
+	at java.lang.Class.getConstructor0(Class.java:3754) ~[?:?]
+	at java.lang.Class.getDeclaredConstructor(Class.java:2930) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23475!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23474!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[23Dec2024 18:42:46.525] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/PacketFlow
+[23Dec2024 18:42:46.529] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Entity$RemovalReason
+[23Dec2024 18:42:46.530] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/commands/arguments/EntityAnchorArgument$Anchor
+[23Dec2024 18:42:46.532] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/player/ChatVisiblity
+[23Dec2024 18:42:46.544] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MoverType
+[23Dec2024 18:42:46.544] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Entity$MovementEmission
+[23Dec2024 18:42:46.545] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/HumanoidArm
+[23Dec2024 18:42:46.553] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/player/PlayerModelPart
+[23Dec2024 18:42:46.572] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting io/github/foundationgames/automobility/block/AutomobilityBlocks
+[23Dec2024 18:42:46.580] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/tacz/guns/api/entity/ShootResult
+[23Dec2024 18:42:46.592] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting io/github/foundationgames/automobility/item/AutomobilityItems
+[23Dec2024 18:42:46.599] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/SpawnPlacements$Type
+[23Dec2024 18:42:46.600] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/simibubi/create/content/kinetics/base/IRotate$SpeedLevel
+[23Dec2024 18:42:46.605] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting io/github/foundationgames/automobility/automobile/WheelBase$WheelEnd
+[23Dec2024 18:42:46.607] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting io/github/foundationgames/automobility/automobile/WheelBase$WheelSide
+[23Dec2024 18:42:46.611] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting io/github/foundationgames/automobility/automobile/AutomobileWheel$Ability
+[23Dec2024 18:42:46.624] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/isxander/yacl3/platform/Env
+[23Dec2024 18:42:46.628] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting io/github/foundationgames/automobility/entity/AutomobilityEntities
+[23Dec2024 18:42:46.632] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting io/github/foundationgames/automobility/util/network/CommonPackets
+[23Dec2024 18:42:46.649] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/BOLUDOSSAFIO/servidor_minecraft/config/createaddition-common.toml is not correct. Correcting
+[23Dec2024 18:42:46.651] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:46.651] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.fe_at_max_rpm was corrected from null to its default, 480. 
+[23Dec2024 18:42:46.652] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.max_stress was corrected from null to its default, 16384. 
+[23Dec2024 18:42:46.653] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.audio_enabled was corrected from null to its default, true. 
+[23Dec2024 18:42:46.655] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key electric_motor was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:46.656] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key electric_motor.motor_rpm_range was corrected from null to its default, 256. 
+[23Dec2024 18:42:46.656] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/isxander/yacl3/config/v2/api/ConfigSerializer$LoadResult
+[23Dec2024 18:42:46.657] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key electric_motor.motor_min_consumption was corrected from null to its default, 8. 
+[23Dec2024 18:42:46.657] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key electric_motor.motor_max_input was corrected from null to its default, 5000. 
+[23Dec2024 18:42:46.658] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key electric_motor.motor_capacity was corrected from null to its default, 5000. 
+[23Dec2024 18:42:46.658] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Config file '/workspaces/BOLUDOSSAFIO/servidor_minecraft/config/yacl.json5' does not exist. Creating it with default values.
+[23Dec2024 18:42:46.658] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Serializing class dev.isxander.yacl3.platform.YACLConfig to '/workspaces/BOLUDOSSAFIO/servidor_minecraft/config/yacl.json5'
+[23Dec2024 18:42:46.660] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alternator was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:46.660] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alternator.generator_max_output was corrected from null to its default, 5000. 
+[23Dec2024 18:42:46.661] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alternator.generator_capacity was corrected from null to its default, 5000. 
+[23Dec2024 18:42:46.661] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/quiltmc/parsers/json/JsonFormat
+[23Dec2024 18:42:46.662] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alternator.generator_efficiency was corrected from null to its default, 0.75. 
+[23Dec2024 18:42:46.663] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rolling_mill was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:46.663] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rolling_mill.rolling_mill_processing_duration was corrected from null to its default, 120. 
+[23Dec2024 18:42:46.663] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rolling_mill.rolling_mill_stress was corrected from null to its default, 8. 
+[23Dec2024 18:42:46.664] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:46.664] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.small_connector_max_input was corrected from null to its default, 1000. 
+[23Dec2024 18:42:46.664] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.small_connector_max_output was corrected from null to its default, 1000. 
+[23Dec2024 18:42:46.665] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.small_connector_wire_length was corrected from null to its default, 16. 
+[23Dec2024 18:42:46.665] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.small_light_connector_consumption was corrected from null to its default, 1. 
+[23Dec2024 18:42:46.665] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.large_connector_max_input was corrected from null to its default, 5000. 
+[23Dec2024 18:42:46.665] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.large_connector_max_output was corrected from null to its default, 5000. 
+[23Dec2024 18:42:46.665] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.large_connector_wire_length was corrected from null to its default, 32. 
+[23Dec2024 18:42:46.665] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.connector_ignore_face_check was corrected from null to its default, true. 
+[23Dec2024 18:42:46.665] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.connector_allow_passive_io was corrected from null to its default, true. 
+[23Dec2024 18:42:46.666] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key accumulator was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:46.666] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key accumulator.accumulator_max_input was corrected from null to its default, 5000. 
+[23Dec2024 18:42:46.666] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key accumulator.accumulator_max_output was corrected from null to its default, 5000. 
+[23Dec2024 18:42:46.667] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key accumulator.accumulator_capacity was corrected from null to its default, 2000000. 
+[23Dec2024 18:42:46.667] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key accumulator.accumulator_max_height was corrected from null to its default, 5. 
+[23Dec2024 18:42:46.667] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key accumulator.accumulator_max_width was corrected from null to its default, 3. 
+[23Dec2024 18:42:46.668] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key portable_energy_interface was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:46.668] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key portable_energy_interface.pei_max_input was corrected from null to its default, 5000. 
+[23Dec2024 18:42:46.669] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key portable_energy_interface.pei_max_output was corrected from null to its default, 5000. 
+[23Dec2024 18:42:46.669] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:46.670] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_max_input was corrected from null to its default, 10000. 
+[23Dec2024 18:42:46.670] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_charge_rate was corrected from null to its default, 5000. 
+[23Dec2024 18:42:46.670] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_recipe_charge_rate was corrected from null to its default, 2000. 
+[23Dec2024 18:42:46.670] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_capacity was corrected from null to its default, 40000. 
+[23Dec2024 18:42:46.670] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_hurt_energy_required was corrected from null to its default, 1000. 
+[23Dec2024 18:42:46.670] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_hurt_range was corrected from null to its default, 3. 
+[23Dec2024 18:42:46.671] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_hurt_mob was corrected from null to its default, 3. 
+[23Dec2024 18:42:46.671] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_effect_time_mob was corrected from null to its default, 20. 
+[23Dec2024 18:42:46.671] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_hurt_player was corrected from null to its default, 2. 
+[23Dec2024 18:42:46.671] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_effect_time_player was corrected from null to its default, 20. 
+[23Dec2024 18:42:46.671] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_fire_cooldown was corrected from null to its default, 20. 
+[23Dec2024 18:42:46.673] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Dec2024 18:42:46.673] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.diamond_grit_sandpaper_uses was corrected from null to its default, 1024. 
+[23Dec2024 18:42:46.679] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.barbed_wire_damage was corrected from null to its default, 2.0. 
+[23Dec2024 18:42:46.721] [modloading-worker-0/INFO] [net.rk.thingamajigs.Thingamajigs/]: Thingamajigs is doing final preparations.
+[23Dec2024 18:42:46.799] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 3 errors found
+[23Dec2024 18:42:46.879] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID c86da128-67fe-49b5-93bc-6d28342f56e3
+[23Dec2024 18:42:46.884] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2024-12-23_18.42.46-fml.txt
+[23Dec2024 18:42:46.892] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID cb17b758-445c-49bd-9576-4900db13f304
+[23Dec2024 18:42:46.894] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Modern UI (modernui) has failed to load correctly
+§7java.lang.NoClassDefFoundError: org/lwjgl/glfw/GLFWErrorCallbackI,
+	Cave Dust (cavedust) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER,
+	Sounds (sounds) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+]
+	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:246) ~[fmlcore-1.20.1-47.3.7.jar%23474!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.7.jar%23474!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.7.jar%23474!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23474!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23474!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.3.7-universal.jar%23478!/:?]
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23473!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
